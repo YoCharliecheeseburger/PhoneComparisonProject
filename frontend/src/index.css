@@ -1,5 +1,91 @@
 body {
-    background-color: rgb(255, 255, 255);
     margin: 0;
     padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+}
+
+/*ts gon be blue themed*/
+
+.navbar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background-color: #1e1e1e;
+    color: white;
+}
+
+/*media queries if I dont forget ^^*/
+
+.left {
+    flex: 1;
+}
+
+.center {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.right {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.right a {
+    border-left: 1px solid rgb(213, 213, 213);
+    padding-left: 20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+    opacity: 0.8;
+}
+
+.navbarTitle {
+    margin: 0;
+    font-size: 1.6rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+.filterPos {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    background-color: rgb(253, 253, 253);
+    width: 100%;
+    padding: 40px 0;
+    border-bottom: 4px solid rgb(208, 208, 208);
+}
+
+.filterMenu {
+    display: flex;
+    position: relative;
+    background-color: #f1f1f1;
+    border-radius: 15px;
+    width: 70vw;
+    height: 300px;
+}
+
+.filterMenuContent {
+    padding: 30px;
 }
