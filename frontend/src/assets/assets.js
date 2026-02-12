@@ -507,7 +507,7 @@ export const assets = {
         },
 
         display: {
-            screenSizeIN: '6,1',
+            screenSizeIN: '6.1',
             refreshRate: '120',
             panel: 'LTPO Super Retina XDR OLED',
             resolution: '1179 x 2556',
