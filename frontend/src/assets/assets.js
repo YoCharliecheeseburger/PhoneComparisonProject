@@ -1,70 +1,70 @@
-import nokia_8110 from './1_Nokia_8110.webp'
-import google_pixel_10_pro from './2_google_pixel_10_pro.webp'
-import apple_iphone_16_pro from './3_apple_iphone_16_pro.webp'
-import xiaomi_13 from './4_xiaomi_13.webp'
-import apple_iphone_air from './5_apple_iphone_air.webp'
-import xiaomi_12_pro from './6_xiaomi_12_pro.webp'
-import xiaomi_15t_pro from './7_xiaomi_15t_pro.webp'
-import google_pixel_9 from './8_google_pixel_9.webp'
-import honor_magic_6_ultimate from './9_honor_magic_6_ultimate.webp'
-import sony_xperia_1_v from './10_sony_xperia_1_v.webp'
-import google_pixel_10_pro_xl from './11_google_pixel_10_pro_xl.webp'
-import honor_magic_7 from './12_honor_magic_7.webp'
-import xiaomi_13_pro from './13_xiaomi_13_pro.webp'
-import oneplus_15 from './14_oneplus_15.webp'
-import samsung_galaxy_s25_ultra from './15_samsung_galaxy_s25_ultra.webp'
-import xiaomi_17_pro from './16_xiaomi_17_pro.webp'
-import samsung_galaxy_s25 from './17_samsung_galaxy_s25.webp'
-import samsung_galaxy_s25_plus from './18_samsung_galaxy_s25_plus.webp'
-import xiaomi_13_ultra from './19_xiaomi_13_ultra.webp'
-import samsung_galaxy_s22_ultra from './20_samsung_galaxy_s22_ultra.webp'
-import xiaomi_mix_fold_4 from './21_xiaomi_mix_fold_4.webp'
-import motorola_edge_50_ultra from './22_motorola_edge_50_ultra.webp'
-import apple_iphone_14_pro from './23_apple_iphone_14_pro.webp'
-import google_pixel_6 from './24_google_pixel_6.webp'
-import apple_iphone_17 from './25_apple_iphone_17.webp'
-import nothing_phone_3 from './26_nothing_phone_3.webp'
-import asus_rog_phone_8 from './27_asus_rog_phone_8.webp'
-import vivo_x200_pro_mini from './28_vivo_x200_pro_mini.webp'
-import oneplus_15r from './29_oneplus_15r.webp'
-import lg_v60_thinq_5g from './30_lg_v60_thinq_5g.webp'
-import samsung_galaxy_s21_ultra from './31_samsung_galaxy_s21_ultra.webp'
-import apple_iphone_15_plus from './32_apple_iphone_15_plus.webp'
-import oneplus_9_pro from './33_oneplus_9_pro.webp'
-import asus_rog_phone_8_pro from './34_asus_rog_phone_8_pro.webp'
-import samsung_galaxy_s24 from './35_samsung_galaxy_s24.webp'
-import xiaomi_poco_f7 from './36_xiaomi_poco_f7.webp'
-import honor_magic_5_ultimate from './37_honor_magic_5_ultimate.webp'
-import honor_200_pro from './38_honor_200_pro.webp'
-import apple_iphone_14_plus from './39_apple_iphone_14_plus.webp'
-import samsung_galaxy_s25_fe from './40_samsung_galaxy_s25_fe.webp'
-import samsung_galaxy_s21_fe_5g from './41_samsung_galaxy_s21_fe_5g.webp'
-import xiaomi_poco_x7_pro from './42_xiaomi_poco_x7_pro.webp'
-import oneplus_13s from './43_oneplus_13s.webp'
-import samsung_galaxy_s24_fe from './44_samsung_galaxy_s24_fe.webp'
-import apple_iphone_13_pro_max from './45_apple_iphone_13_pro_max.webp'
-import samsung_galaxy_note_10_plus from './46_samsung_galaxy_note_10_plus.webp'
-import motorola_moto_x40 from './47_motorola_moto_x40.webp'
-import samsung_galaxy_s22_plus from './48_samsung_galaxy_s22_plus.webp'
-import motorola_thinkphone from './49_motorola_thinkphone.webp'
-import xiaomi_mix_flip from './50_xiaomi_mix_flip.webp'
-import apple_iphone_16e from './51_apple_iphone_16e.webp'
-import apple_iphone_14 from './52_apple_iphone_14.webp'
-import xiaomi_redmi_k60 from './53_xiaomi_redmi_k60.webp'
-import xiaomi_15t from './54_xiaomi_15t.webp'
-import asus_rog_phone_7 from './55_asus_rog_phone_7.webp'
-import google_pixel_fold from './56_google_pixel_fold.webp'
-import sony_xperia_5_ii from './57_sony_xperia_5_ii.webp'
-import zte_nubia_red_magic_9_pro_plus from './58_zte_nubia_red_magic_9_pro_plus.webp'
-import samsung_galaxy_z_flip_5 from './59_samsung_galaxy_z_flip_5.webp'
-import oneplus_8 from './60_oneplus_8.webp'
-import blackberry_aurora from './61_blackberry_aurora.jpg'
-import nothing_phone_3a_pro from './62_nothing_phone_3a_pro.webp'
-import honor_magic_7_pro from './63_honor_magic_7_pro.webp'
-import oukitel_wp100_titan from './64_oukitel_wp100_titan.webp'
-import doogee_v_max_plus from './65_doogee_v_max_plus.webp'
-import honor_magic_v5 from './66_honor_magic_v5.webp'
-import oppo_find_n5 from './67_oppo_find_n5.webp'
+import nokia_8110 from './1_nokia_8110.png'
+import google_pixel_10_pro from './2_google_pixel_10_pro.png'
+import apple_iphone_16_pro from './3_apple_iphone_16_pro.png'
+import xiaomi_13 from './4_xiaomi_13.png'
+import apple_iphone_air from './5_apple_iphone_air.png'
+import xiaomi_12_pro from './6_xiaomi_12_pro.png'
+import xiaomi_15t_pro from './7_xiaomi_15t_pro.png'
+import google_pixel_9 from './8_google_pixel_9.png'
+import honor_magic_6_ultimate from './9_honor_magic_6_ultimate.png'
+import sony_xperia_1_v from './10_sony_xperia_1_v.png'
+import google_pixel_10_pro_xl from './11_google_pixel_10_pro_xl.png'
+import honor_magic_7 from './12_honor_magic_7.png'
+import xiaomi_13_pro from './13_xiaomi_13_pro.png'
+import oneplus_15 from './14_oneplus_15.png'
+import samsung_galaxy_s25_ultra from './15_samsung_galaxy_s25_ultra.png'
+import xiaomi_17_pro from './16_xiaomi_17_pro.png'
+import samsung_galaxy_s25 from './17_samsung_galaxy_s25.png'
+import samsung_galaxy_s25_plus from './18_samsung_galaxy_s25_plus.png'
+import xiaomi_13_ultra from './19_xiaomi_13_ultra.png'
+import samsung_galaxy_s22_ultra from './20_samsung_galaxy_s22_ultra.png'
+import xiaomi_mix_fold_4 from './21_xiaomi_mix_fold_4.png'
+import motorola_edge_50_ultra from './22_motorola_edge_50_ultra.png'
+import apple_iphone_14_pro from './23_apple_iphone_14_pro.png'
+import google_pixel_6 from './24_google_pixel_6.png'
+import apple_iphone_17 from './25_apple_iphone_17.png'
+import nothing_phone_3 from './26_nothing_phone_3.png'
+import asus_rog_phone_8 from './27_asus_rog_phone_8.png'
+import vivo_x200_pro_mini from './28_vivo_x200_pro_mini.png'
+import oneplus_15r from './29_oneplus_15r.png'
+import lg_v60_thinq_5g from './30_lg_v60_thinq_5g.png'
+import samsung_galaxy_s21_ultra from './31_samsung_galaxy_s21_ultra.png'
+import apple_iphone_15_plus from './32_apple_iphone_15_plus.png'
+import oneplus_9_pro from './33_oneplus_9_pro.png'
+import asus_rog_phone_8_pro from './34_asus_rog_phone_8_pro.png'
+import samsung_galaxy_s24 from './35_samsung_galaxy_s24.png'
+import xiaomi_poco_f7 from './36_xiaomi_poco_f7.png'
+import honor_magic_5_ultimate from './37_honor_magic_5_ultimate.png'
+import honor_200_pro from './38_honor_200_pro.png'
+import apple_iphone_14_plus from './39_apple_iphone_14_plus.png'
+import samsung_galaxy_s25_fe from './40_samsung_galaxy_s25_fe.png'
+import samsung_galaxy_s21_fe_5g from './41_samsung_galaxy_s21_fe_5g.png'
+import xiaomi_poco_x7_pro from './42_xiaomi_poco_x7_pro.png'
+import oneplus_13s from './43_oneplus_13s.png'
+import samsung_galaxy_s24_fe from './44_samsung_galaxy_s24_fe.png'
+import apple_iphone_13_pro_max from './45_apple_iphone_13_pro_max.png'
+import samsung_galaxy_note_10_plus from './46_samsung_galaxy_note_10_plus.png'
+import motorola_moto_x40 from './47_motorola_moto_x40.png'
+import samsung_galaxy_s22_plus from './48_samsung_galaxy_s22_plus.png'
+import motorola_thinkphone from './49_motorola_thinkphone.png'
+import xiaomi_mix_flip from './50_xiaomi_mix_flip.png'
+import apple_iphone_16e from './51_apple_iphone_16e.png'
+import apple_iphone_14 from './52_apple_iphone_14.png'
+import xiaomi_redmi_k60 from './53_xiaomi_redmi_k60.png'
+import xiaomi_15t from './54_xiaomi_15t.png'
+import asus_rog_phone_7 from './55_asus_rog_phone_7.png'
+import google_pixel_fold from './56_google_pixel_fold.png'
+import sony_xperia_5_ii from './57_sony_xperia_5_ii.png'
+import zte_nubia_red_magic_9_pro_plus from './58_zte_nubia_red_magic_9_pro_plus.png'
+import samsung_galaxy_z_flip_5 from './59_samsung_galaxy_z_flip_5.png'
+import oneplus_8 from './60_oneplus_8.png'
+import blackberry_aurora from './61_blackberry_aurora.png'
+import nothing_phone_3a_pro from './62_nothing_phone_3a_pro.png'
+import honor_magic_7_pro from './63_honor_magic_7_pro.png'
+import oukitel_wp100_titan from './64_oukitel_wp100_titan.png'
+import doogee_v_max_plus from './65_doogee_v_max_plus.png'
+import honor_magic_v5 from './66_honor_magic_v5.png'
+import oppo_find_n5 from './67_oppo_find_n5.png'
 
 
 export const assets = {
@@ -76,7 +76,7 @@ export const assets = {
 
         battery: {
             capacityMah: '1500',
-            chargingSpeedW: '10W',
+            chargingSpeedW: '10',
         },
 
         body: {
@@ -91,10 +91,10 @@ export const assets = {
             resolution: '240 x 320',
         },
 
-        Performance: {
+        performance: {
             CPU: 'Dual-core (2x1.1 GHz Cortex-A7) Qualcomm MSM8905 Snapdragon 205 (28 nm)',
             GPU: 'Adreno 304',
-            ramMB: [512],
+            ram: [512],
             storageGB: [4],
         },
 
@@ -134,10 +134,10 @@ export const assets = {
             resolution: '1280 x 2856',
         },
 
-        Performance: {
+        performance: {
             CPU: 'Octa-core (1x3.78 GHz Cortex-X4 & 5x3.05 GHz Cortex-A725 & 2x2.25 GHz Cortex-A520) Google Tensor G5 (3 nm)',
             GPU: 'PowerVR DXT-48-1536',
-            ramGB: [16],
+            ram: [16],
             storageGB: [128, 256, 512, 1024],
         },
 
@@ -176,10 +176,10 @@ export const assets = {
             resolution: '1080 x 2424',
         },
 
-        Performance: {
+        performance: {
             CPU: 'Octa-core (1x3.1 GHz Cortex-X4 & 3x2.6 GHz Cortex-A720 & 4x1.92 GHz Cortex-A520) Google Tensor G4 (4 nm)',
             GPU: 'Mali-G715 MC7',
-            ramGB: [12],
+            ram: [12],
             storageGB: [128, 256],
         },
 
@@ -218,10 +218,10 @@ export const assets = {
             resolution: '1344 x 2992',
         },
 
-        Performance: {
+        performance: {
             CPU: 'Octa-core (1x3.78 GHz Cortex-X4 & 5x3.05 GHz Cortex-A725 & 2x2.25 GHz Cortex-A520) Google Tensor G5 (3 nm) ',
             GPU: 'PowerVR DXT-48-1536',
-            ramGB: [16],
+            ram: [16],
             storageGB: [256, 512, 1024],
         },
 
@@ -260,10 +260,10 @@ export const assets = {
             resolution: '1080 x 2400',
         },
 
-        Performance: {
+        performance: {
             CPU: 'Octa-core (2x2.80 GHz Cortex-X1 & 2x2.25 GHz Cortex-A76 & 4x1.80 GHz Cortex-A55) Google Tensor (5 nm)',
             GPU: 'Mali-G78 MP20',
-            ramGB: [8],
+            ram: [8],
             storageGB: [128, 256],
         },
 
@@ -302,10 +302,10 @@ export const assets = {
             resolution: '1840 x 2208',
         },
 
-        Performance: {
+        performance: {
             CPU: 'Octa-core (2x2.85 GHz Cortex-X1 & 2x2.35 GHz Cortex-A78 & 4x1.80 GHz Cortex-A55) Google Tensor G2 (5 nm)',
             GPU: 'Mali-G710 MP7',
-            ramGB: [12],
+            ram: [12],
             storageGB: [256, 512],
         },
 
@@ -345,10 +345,10 @@ export const assets = {
             resolution: '1206 x 2622',
         },
 
-        Performance: {
+        performance: {
             CPU: 'Hexa-core (2x4.05 GHz + 4x2.42 GHz) Apple A18 Pro (3 nm)',
             GPU: 'Apple GPU (6-core graphics)',
-            ramGB: [8],
+            ram: [8],
             storageGB: [128, 256, 512, 1024],
         },
 
@@ -387,10 +387,10 @@ export const assets = {
             resolution: '1260 x 2736',
         },
 
-        Performance: {
+        performance: {
             CPU: 'Hexa-core (2x4.26 GHz + 4xX.X GHz) Apple A19 Pro (3 nm)',
             GPU: 'Apple GPU (5-core graphics)',
-            ramGB: [12],
+            ram: [12],
             storageGB: [256, 512, 1024],
         },
 
@@ -429,10 +429,10 @@ export const assets = {
             resolution: '1170 x 2532',
         },
 
-        Performance: {
+        performance: {
             CPU: 'Hexa-core (2x4.04 GHz + 4x2.20 GHz) Apple A18 (3 nm)',
             GPU: 'Apple GPU (4-core graphics)',
-            ramGB: [8],
+            ram: [8],
             storageGB: [128, 256, 512],
         },
 
@@ -471,10 +471,10 @@ export const assets = {
             resolution: '1170 x 2532',
         },
 
-        Performance: {
+        performance: {
             CPU: 'Hexa-core (2x3.23 GHz Avalanche + 4x1.82 GHz Blizzard) Apple A15 Bionic (5 nm)',
             GPU: 'Apple GPU (5-core graphics)',
-            ramGB: [6],
+            ram: [6],
             storageGB: [128, 256, 512],
         },
 
@@ -513,10 +513,10 @@ export const assets = {
             resolution: '1179 x 2556',
         },
 
-        Performance: {
+        performance: {
             CPU: 'Hexa-core (2x3.46 GHz Everest + 4x2.02 GHz Sawtooth) Apple A16 Bionic (4 nm)',
             GPU: 'Apple GPU (5-core graphics)',
-            ramGB: [6],
+            ram: [6],
             storageGB: [128, 256, 512, 1024],
         },
 
@@ -555,10 +555,10 @@ export const assets = {
             resolution: '1290 x 2796',
         },
 
-        Performance: {
+        performance: {
             CPU: 'Hexa-core (2x3.46 GHz Everest + 4x2.02 GHz Sawtooth) Apple A16 Bionic (4 nm)',
             GPU: 'Apple GPU (5-core graphics)',
-            ramGB: [6],
+            ram: [6],
             storageGB: [128, 256, 512],
         },
 
@@ -597,10 +597,10 @@ export const assets = {
             resolution: '1284 x 2778',
         },
 
-        Performance: {
+        performance: {
             CPU: 'Hexa-core (2x3.23 GHz Avalanche + 4x1.82 GHz Blizzard) Apple A15 Bionic (5 nm)',
             GPU: 'Apple GPU (5-core graphics)',
-            ramGB: [6],
+            ram: [6],
             storageGB: [128, 256, 512, 1024],
         },
 
@@ -639,10 +639,10 @@ export const assets = {
             resolution: '1284 x 2778',
         },
 
-        Performance: {
+        performance: {
             CPU: 'Hexa-core (2x3.23 GHz Avalanche + 4x1.82 GHz Blizzard) Apple A15 Bionic (5 nm)',
             GPU: 'Apple GPU (5-core graphics)',
-            ramGB: [6],
+            ram: [6],
             storageGB: [128, 256, 512],
         },
 
@@ -681,10 +681,10 @@ export const assets = {
             resolution: '1206 x 2622',
         },
 
-        Performance: {
+        performance: {
             CPU: 'Hexa-core (2x4.26 GHz + 4xX.X GHz) Apple A19 (3 nm)',
             GPU: 'Apple GPU (5-core graphics)',
-            ramGB: [8],
+            ram: [8],
             storageGB: [256, 512],
         },
 
@@ -724,10 +724,10 @@ export const assets = {
             resolution: '1440 x 3200 pixels',
         },
 
-        Performance: {
+        performance: {
             CPU: 'Octa-core (1x3.00 GHz Cortex-X2 & 3x2.50 GHz Cortex-A710 & 4x1.80 GHz Cortex-A510) Qualcomm SM8450 Snapdragon 8 Gen 1 (4 nm)',
             GPU: 'Adreno 730',
-            ramGB: [8, 12],
+            ram: [8, 12],
             storageGB: [128, 256],
         },
 
@@ -766,10 +766,10 @@ export const assets = {
             resolution: '1280 x 2772',
         },
 
-        Performance: {
+        performance: {
             CPU: ' 	Octa-core (1x3.63 GHz Cortex-X925 & 3x3.3 GHz Cortex-X4 & 4x2.4 GHz Cortex-A720) Mediatek Dimensity 9400+ (3 nm)',
             GPU: 'Immortalis-G925',
-            ramGB: [12],
+            ram: [12],
             storageGB: [256, 512, 1024],
         },
 
@@ -808,10 +808,10 @@ export const assets = {
             resolution: '1440 x 3200',
         },
 
-        Performance: {
+        performance: {
             CPU: 'Octa-core (1x3.2 GHz Cortex-X3 & 2x2.8 GHz Cortex-A715 & 2x2.8 GHz Cortex-A710 & 3x2.0 GHz Cortex-A510) Qualcomm SM8550-AB Snapdragon 8 Gen 2 (4 nm)',
             GPU: 'Adreno 740',
-            ramGB: [12, 16],
+            ram: [12, 16],
             storageGB: [256, 512, 1024],
         },
 
@@ -850,10 +850,10 @@ export const assets = {
             resolution: '2224 x 2488',
         },
 
-        Performance: {
+        performance: {
             CPU: 'Octa-core (1x3.3 GHz Cortex-X4 & 3x3.2 GHz Cortex-A720 & 2x3.0 GHz Cortex-A720 & 2x2.3 GHz Cortex-A520) Qualcomm SM8650-AB Snapdragon 8 Gen 3 (4 nm)',
             GPU: 'Adreno 750',
-            ramGB: [12, 16],
+            ram: [12, 16],
             storageGB: [256, 512, 1024],
         },
 
@@ -892,10 +892,10 @@ export const assets = {
             resolution: '1080 x 2400',
         },
 
-        Performance: {
+        performance: {
             CPU: 'Octa-core (1x3.2 GHz Cortex-X3 & 2x2.8 GHz Cortex-A715 & 2x2.8 GHz Cortex-A710 & 3x2.0 GHz Cortex-A510) Qualcomm SM8550-AB Snapdragon 8 Gen 2 (4 nm)',
             GPU: 'Adreno 740',
-            ramGB: [8, 12],
+            ram: [8, 12],
             storageGB: [128, 256, 512],
         },
 
@@ -934,10 +934,10 @@ export const assets = {
             resolution: '1440 x 3200',
         },
 
-        Performance: {
+        performance: {
             CPU: 'Octa-core (1x3.2 GHz Cortex-X3 & 2x2.8 GHz Cortex-A715 & 2x2.8 GHz Cortex-A710 & 3x2.0 GHz Cortex-A510) Qualcomm SM8550-AB Snapdragon 8 Gen 2 (4 nm)',
             GPU: 'Adreno 740',
-            ramGB: [8, 12],
+            ram: [8, 12],
             storageGB: [128, 256, 512],
         },
 
@@ -976,10 +976,10 @@ export const assets = {
             resolution: '1220 x 2656',
         },
 
-        Performance: {
+        performance: {
             CPU: 'Octa-core (2x4.6 GHz Oryon V3 Phoenix L + 6x3.62 GHz Oryon V3 Phoenix M) Qualcomm SM8850-AC Snapdragon 8 Elite Gen 5 (3 nm)',
             GPU: 'Adreno 840',
-            ramGB: [12, 16],
+            ram: [12, 16],
             storageGB: [256, 512, 1024],
         },
 
@@ -1018,10 +1018,10 @@ export const assets = {
             resolution: '1280 x 2772',
         },
 
-        Performance: {
+        performance: {
             CPU: 'Octa-core (1x3.21 GHz Cortex-X4 & 3x3.0 GHz Cortex-A720 & 2x2.8 GHz Cortex-A720 & 2x2.0 GHz Cortex-A720) Qualcomm SM8735 Snapdragon 8s Gen 4 (4 nm)',
             GPU: 'Adreno 825',
-            ramGB: [12],
+            ram: [12],
             storageGB: [256, 512],
         },
 
@@ -1060,10 +1060,10 @@ export const assets = {
             resolution: '1224 x 2912',
         },
 
-        Performance: {
+        performance: {
             CPU: 'Octa-core (1x3.3 GHz Cortex-X4 & 3x3.2 GHz Cortex-A720 & 2x3.0 GHz Cortex-A720 & 2x2.3 GHz Cortex-A520) Qualcomm SM8650-AB Snapdragon 8 Gen 3 (4 nm)',
             GPU: 'Adreno 750',
-            ramGB: [12, 16],
+            ram: [12, 16],
             storageGB: [256, 512, 1024],
         },
 
@@ -1102,10 +1102,10 @@ export const assets = {
             resolution: '1220 x 2712',
         },
 
-        Performance: {
+        performance: {
             CPU: 'Octa-core (1x3.25 GHz Cortex-A725 & 3x3.0 GHz Cortex-A725 & 4x2.1 GHz Cortex-A725) Mediatek Dimensity 8400 Ultra (4 nm)',
             GPU: 'Mali-G720 MC7',
-            ramGB: [8, 12],
+            ram: [8, 12],
             storageGB: [256, 512],
         },
 
@@ -1144,10 +1144,10 @@ export const assets = {
             resolution: '1440 x 3200',
         },
 
-        Performance: {
+        performance: {
             CPU: 'Octa-core (1x3.0 GHz Cortex-X2 & 3x2.5 GHz Cortex-A710 & 4x1.80 GHz Cortex-A510) Qualcomm SM8475 Snapdragon 8+ Gen 1 (4 nm)',
             GPU: 'Adreno 730',
-            ramGB: [8, 12, 16],
+            ram: [8, 12, 16],
             storageGB: [128, 256, 512, 1024],
         },
 
@@ -1186,10 +1186,10 @@ export const assets = {
             resolution: '1280 x 2772',
         },
 
-        Performance: {
+        performance: {
             CPU: 'Octa-core (1x3.25 GHz Cortex-A725 & 3x3.0 GHz Cortex-A725 & 4x2.1 GHz Cortex-A725) Mediatek Dimensity 8400 Ultra (4 nm)',
             GPU: 'Mali-G720 MC7',
-            ramGB: [12],
+            ram: [12],
             storageGB: [256, 512],
         },
 
@@ -1229,10 +1229,10 @@ export const assets = {
             resolution: '1272 x 2772',
         },
 
-        Performance: {
+        performance: {
             CPU: 'Octa-core (2x4.6 GHz Oryon V3 Phoenix L + 6x3.62 GHz Oryon V3 Phoenix M) Qualcomm SM8850-AC Snapdragon 8 Elite Gen 5 (3 nm)',
             GPU: 'Adreno 840',
-            ramGB: [12, 16],
+            ram: [12, 16],
             storageGB: [256, 512, 1024],
         },
 
@@ -1271,10 +1271,10 @@ export const assets = {
             resolution: '1272 x 2800',
         },
 
-        Performance: {
+        performance: {
             CPU: 'Octa-core (2x3.8 GHz Oryon V3 Phoenix L + 6x3.32 GHz Oryon V3 Phoenix M) Qualcomm SM8845 Snapdragon 8 Gen 5 (3 nm)',
             GPU: 'Adreno 829',
-            ramGB: [12],
+            ram: [12],
             storageGB: [256, 512],
         },
 
@@ -1313,10 +1313,10 @@ export const assets = {
             resolution: '1440 x 3216',
         },
 
-        Performance: {
+        performance: {
             CPU: 'Octa-core (1x2.84 GHz Cortex-X1 & 3x2.42 GHz Cortex-A78 & 4x1.80 GHz Cortex-A55 Qualcomm SM8350 Snapdragon 888 5G (5 nm)',
             GPU: 'Adreno 660',
-            ramGB: [8, 12],
+            ram: [8, 12],
             storageGB: [128, 256,],
         },
 
@@ -1355,10 +1355,10 @@ export const assets = {
             resolution: '1080 x 2400',
         },
 
-        Performance: {
+        performance: {
             CPU: 'Octa-core (1x2.84 GHz Cortex-A77 & 3x2.42 GHz Cortex-A77 & 4x1.80 GHz Cortex-A55) Qualcomm SM8250 Snapdragon 865 5G (7 nm+)',
             GPU: 'Adreno 650',
-            ramGB: [6, 8, 12],
+            ram: [6, 8, 12],
             storageGB: [128, 256],
         },
 
@@ -1397,10 +1397,10 @@ export const assets = {
             resolution: '1216 x 2640',
         },
 
-        Performance: {
+        performance: {
             CPU: 'Octa-core (2x4.32 GHz Oryon V2 Phoenix L + 6x3.53 GHz Oryon V2 Phoenix M) Qualcomm SM8750-AB Snapdragon 8 Elite (3 nm)',
             GPU: 'Adreno 830',
-            ramGB: [12],
+            ram: [12],
             storageGB: [256, 512],
         },
 
@@ -1440,10 +1440,10 @@ export const assets = {
             resolution: '1080 x 2640',
         },
 
-        Performance: {
+        performance: {
             CPU: 'Octa-core (1x3.36 GHz Cortex-X3 & 2x2.8 GHz Cortex-A715 & 2x2.8 GHz Cortex-A710 & 3x2.0 GHz Cortex-A510) Qualcomm SM8550-AC Snapdragon 8 Gen 2 (4 nm)',
             GPU: 'Adreno 740',
-            ramGB: [8],
+            ram: [8],
             storageGB: [256, 512],
         },
 
@@ -1482,10 +1482,10 @@ export const assets = {
             resolution: '1080 x 2340',
         },
 
-        Performance: {
+        performance: {
             CPU: 'Octa-core (2x4.47 GHz Oryon V2 Phoenix L + 6x3.53 GHz Oryon V2 Phoenix M) Qualcomm SM8750-AC Snapdragon 8 Elite (3 nm)',
             GPU: 'Adreno 830 (1200 MHz)',
-            ramGB: [12],
+            ram: [12],
             storageGB: [128, 256, 512],
         },
 
@@ -1524,10 +1524,10 @@ export const assets = {
             resolution: '1440 x 3120',
         },
 
-        Performance: {
+        performance: {
             CPU: 'Octa-core (2x4.47 GHz Oryon V2 Phoenix L + 6x3.53 GHz Oryon V2 Phoenix M) Qualcomm SM8750-AC Snapdragon 8 Elite (3 nm)',
             GPU: 'Adreno 830 (1200 MHz)',
-            ramGB: [12, 16],
+            ram: [12, 16],
             storageGB: [256, 512, 1024],
         },
 
@@ -1566,10 +1566,10 @@ export const assets = {
             resolution: '1440 x 3120',
         },
 
-        Performance: {
+        performance: {
             CPU: 'Octa-core (2x4.47 GHz Oryon V2 Phoenix L + 6x3.53 GHz Oryon V2 Phoenix M) Qualcomm SM8750-AC Snapdragon 8 Elite (3 nm)',
             GPU: 'Adreno 830 (1200 MHz)',
-            ramGB: [12, 16],
+            ram: [12, 16],
             storageGB: [256, 512, 1024],
         },
 
@@ -1608,10 +1608,10 @@ export const assets = {
             resolution: '1440 x 3088',
         },
 
-        Performance: {
+        performance: {
             CPU: 'Octa-core (1x2.8 GHz Cortex-X2 & 3x2.50 GHz Cortex-A710 & 4x1.8 GHz Cortex-A510) Exynos 2200 (4 nm)',
             GPU: 'Xclipse 920',
-            ramGB: [8, 12],
+            ram: [8, 12],
             storageGB: [128, 256, 512, 1024],
         },
 
@@ -1650,10 +1650,10 @@ export const assets = {
             resolution: '1440 x 3200',
         },
 
-        Performance: {
+        performance: {
             CPU: 'Octa-core (1x2.9 GHz Cortex-X1 & 3x2.80 GHz Cortex-A78 & 4x2.2 GHz Cortex-A55) Exynos 2100 (5 nm)',
             GPU: 'Mali-G78 MP14',
-            ramGB: [8, 12, 16],
+            ram: [8, 12, 16],
             storageGB: [128, 256, 512],
         },
 
@@ -1692,10 +1692,10 @@ export const assets = {
             resolution: '1080 x 2340',
         },
 
-        Performance: {
+        performance: {
             CPU: '10-core (1x3.2GHz Cortex-X4 & 2x2.9GHz Cortex-A720 & 3x2.6GHz Cortex-A720 & 4x1.95GHz Cortex-A520) Exynos 2400 (4 nm)',
             GPU: 'Xclipse 940',
-            ramGB: [8],
+            ram: [8],
             storageGB: [128, 256, 512],
         },
 
@@ -1734,10 +1734,10 @@ export const assets = {
             resolution: '1080 x 2340',
         },
 
-        Performance: {
+        performance: {
             CPU: 'Octa-core (1x2.9 GHz Cortex-X1 & 3x2.80 GHz Cortex-A78 & 4x2.2 GHz Cortex-A55) Exynos 2100',
             GPU: 'Mali-G78 MP14',
-            ramGB: [6, 8],
+            ram: [6, 8],
             storageGB: [128, 256],
         },
 
@@ -1776,10 +1776,10 @@ export const assets = {
             resolution: '1080 x 2340',
         },
 
-        Performance: {
+        performance: {
             CPU: 'Octa-core (1x2.8 GHz Cortex-X2 & 3x2.50 GHz Cortex-A710 & 4x1.8 GHz Cortex-A510) Exynos 2200 (4 nm)',
             GPU: 'Xclipse 920',
-            ramGB: [8],
+            ram: [8],
             storageGB: [128, 256],
         },
 
@@ -1818,10 +1818,10 @@ export const assets = {
             resolution: '1080 x 2340',
         },
 
-        Performance: {
+        performance: {
             CPU: '10-core (1x3.1 GHz + 2x2.9 GHz + 3x2.6 GHz + 4x1.95 GHz) Exynos 2400e (4 nm)',
             GPU: 'Xclipse 940',
-            ramGB: [8],
+            ram: [8],
             storageGB: [128, 256, 512],
         },
 
@@ -1860,10 +1860,10 @@ export const assets = {
             resolution: '1080 x 2340',
         },
 
-        Performance: {
+        performance: {
             CPU: '10-core (1x3.2GHz Cortex-X4 & 2x2.9GHz Cortex-A720 & 3x2.6GHz Cortex-A720 & 4x1.95GHz Cortex-A520) Exynos 2400 (4 nm)',
             GPU: 'Xclipse 940',
-            ramGB: [8, 12],
+            ram: [8, 12],
             storageGB: [128, 256, 512],
         },
 
@@ -1902,10 +1902,10 @@ export const assets = {
             resolution: '1440 x 3040',
         },
 
-        Performance: {
+        performance: {
             CPU: 'Octa-core (2x2.73 GHz Mongoose M4 & 2x2.4 GHz Cortex-A75 & 4x1.9 GHz Cortex-A55) Exynos 9825 (7 nm)',
             GPU: 'Mali-G76 MP12',
-            ramGB: [12],
+            ram: [12],
             storageGB: [256, 512],
         },
 
@@ -1945,10 +1945,10 @@ export const assets = {
             resolution: '1260 x 2800',
         },
 
-        Performance: {
+        performance: {
             CPU: 'Octa-core (1x3.21 GHz Cortex-X4 & 3x3.0 GHz Cortex-A720 & 2x2.8 GHz Cortex-A720 & 2x2.0 GHz Cortex-A720) Qualcomm SM8735 Snapdragon 8s Gen 4 (4 nm)',
             GPU: 'Adreno 825',
-            ramGB: [12, 16],
+            ram: [12, 16],
             storageGB: [256, 512],
         },
 
@@ -1987,10 +1987,10 @@ export const assets = {
             resolution: '1080 x 2392',
         },
 
-        Performance: {
+        performance: {
             CPU: 'Octa-core (1x2.5 GHz Cortex-A720 & 3x2.4 GHz Cortex-A720 & 4x1.8 GHz Cortex-A520) Qualcomm SM7635 Snapdragon 7s Gen 3 (4 nm)',
             GPU: 'Adreno 810',
-            ramGB: [8, 12],
+            ram: [8, 12],
             storageGB: [128, 256],
         },
 
@@ -2030,10 +2030,10 @@ export const assets = {
             resolution: '1080 x 2448',
         },
 
-        Performance: {
+        performance: {
             CPU: 'Octa-core (1x3.2 GHz Cortex-X3 & 2x2.8 GHz Cortex-A715 & 2x2.8 GHz Cortex-A710 & 3x2.0 GHz Cortex-A510) Qualcomm SM8550-AB Snapdragon 8 Gen 2 (4 nm)',
             GPU: 'Adreno 740',
-            ramGB: [12, 16],
+            ram: [12, 16],
             storageGB: [256, 512],
         },
 
@@ -2072,10 +2072,10 @@ export const assets = {
             resolution: '1080 x 2400',
         },
 
-        Performance: {
+        performance: {
             CPU: 'Octa-core (1x3.3 GHz Cortex-X4 & 3x3.2 GHz Cortex-A720 & 2x3.0 GHz Cortex-A720 & 2x2.3 GHz Cortex-A520) Qualcomm SM8650-AB Snapdragon 8 Gen 3 (4 nm)',
             GPU: 'Adreno 750',
-            ramGB: [12, 16],
+            ram: [12, 16],
             storageGB: [256],
         },
 
@@ -2114,10 +2114,10 @@ export const assets = {
             resolution: '1080 x 2400',
         },
 
-        Performance: {
+        performance: {
             CPU: 'Octa-core (1x3.3 GHz Cortex-X4 & 3x3.2 GHz Cortex-A720 & 2x3.0 GHz Cortex-A720 & 2x2.3 GHz Cortex-A520) Qualcomm SM8650-AB Snapdragon 8 Gen 3 (4 nm)',
             GPU: 'Adreno 750',
-            ramGB: [16, 24],
+            ram: [16, 24],
             storageGB: [512, 1024],
         },
 
@@ -2157,10 +2157,10 @@ export const assets = {
             resolution: '1312 x 2848',
         },
 
-        Performance: {
+        performance: {
             CPU: 'Octa-core (1x3.2 GHz Cortex-X3 & 2x2.8 GHz Cortex-A715 & 2x2.8 GHz Cortex-A710 & 3x2.0 GHz Cortex-A510) Qualcomm SM8550-AB Snapdragon 8 Gen 2 (4 nm)',
             GPU: 'Adreno 740',
-            ramGB: [16],
+            ram: [16],
             storageGB: [512],
         },
 
@@ -2199,10 +2199,10 @@ export const assets = {
             resolution: '1224 x 2700',
         },
 
-        Performance: {
+        performance: {
             CPU: 'Octa-core (1x3.0 GHz Cortex-X4 & 4x2.8 GHz Cortex-A720 & 3x2.0 GHz Cortex-A520) Qualcomm SM8635 Snapdragon 8s Gen 3 (4 nm)',
             GPU: 'Adreno 735',
-            ramGB: [12, 16],
+            ram: [12, 16],
             storageGB: [256, 512, 1024],
         },
 
@@ -2241,10 +2241,10 @@ export const assets = {
             resolution: '1280 x 2800',
         },
 
-        Performance: {
+        performance: {
             CPU: 'Octa-core (2x4.32 GHz Oryon V2 Phoenix L + 6x3.53 GHz Oryon V2 Phoenix M) Qualcomm SM8750-AB Snapdragon 8 Elite (3 nm)',
             GPU: 'Adreno 830',
-            ramGB: [12, 16],
+            ram: [12, 16],
             storageGB: [256, 512, 1024],
         },
 
@@ -2282,10 +2282,10 @@ export const assets = {
             resolution: '2172 x 2352',
         },
 
-        Performance: {
+        performance: {
             CPU: 'Octa-core (2x4.32 GHz Oryon V2 Phoenix L + 6x3.53 GHz Oryon V2 Phoenix M) Qualcomm SM8750-AB Snapdragon 8 Elite (3 nm)',
             GPU: 'Adreno 830',
-            ramGB: [12, 16],
+            ram: [12, 16],
             storageGB: [256, 512, 1024],
         },
 
@@ -2324,10 +2324,10 @@ export const assets = {
             resolution: '1280 x 2800 pixels',
         },
 
-        Performance: {
+        performance: {
             CPU: 'Octa-core (1x3.3 GHz Cortex-X4 & 3x3.2 GHz Cortex-A720 & 2x3.0 GHz Cortex-A720 & 2x2.3 GHz Cortex-A520) Qualcomm SM8650-AB Snapdragon 8 Gen 3 (4 nm)',
             GPU: 'Adreno 750',
-            ramGB: [16],
+            ram: [16],
             storageGB: [512, 1024],
         },
 
@@ -2366,10 +2366,10 @@ export const assets = {
             resolution: '1264 x 2800',
         },
 
-        Performance: {
+        performance: {
             CPU: 'Octa-core (2x4.32 GHz Oryon V2 Phoenix L + 6x3.53 GHz Oryon V2 Phoenix M) Qualcomm SM8750-AB Snapdragon 8 Elite (3 nm)',
             GPU: 'Adreno 830',
-            ramGB: [12, 16],
+            ram: [12, 16],
             storageGB: [256, 512, 1024],
         },
 
@@ -2409,10 +2409,10 @@ export const assets = {
             resolution: '1644 x 3840',
         },
 
-        Performance: {
+        performance: {
             CPU: 'Octa-core (1x3.2 GHz Cortex-X3 & 2x2.8 GHz Cortex-A715 & 2x2.8 GHz Cortex-A710 & 3x2.0 GHz Cortex-A510) Qualcomm SM8550-AB Snapdragon 8 Gen 2 (4 nm)',
             GPU: 'Adreno 740',
-            ramGB: [12],
+            ram: [12],
             storageGB: [256, 512],
         },
 
@@ -2451,10 +2451,10 @@ export const assets = {
             resolution: '1080 x 2520',
         },
 
-        Performance: {
+        performance: {
             CPU: 'Octa-core (1x2.84 GHz Cortex-A77 & 3x2.42 GHz Cortex-A77 & 4x1.80 GHz Cortex-A55) Qualcomm SM8250 Snapdragon 865 5G (7 nm+)',
             GPU: 'Adreno 650',
-            ramGB: [8],
+            ram: [8],
             storageGB: [128, 256],
         },
 
@@ -2493,10 +2493,10 @@ export const assets = {
             resolution: '1220 x 2712',
         },
 
-        Performance: {
+        performance: {
             CPU: 'Octa-core (1x3.0 GHz Cortex-X4 & 4x2.8 GHz Cortex-A720 & 3x2.0 GHz Cortex-A520) Qualcomm SM8635 Snapdragon 8s Gen 3 (4 nm)',
             GPU: 'Adreno 735',
-            ramGB: [12, 16],
+            ram: [12, 16],
             storageGB: [512, 1024],
         },
 
@@ -2535,10 +2535,10 @@ export const assets = {
             resolution: '1080 x 2400',
         },
 
-        Performance: {
+        performance: {
             CPU: 'Octa-core (1x3.2 GHz Cortex-X3 & 2x2.8 GHz Cortex-A715 & 2x2.8 GHz Cortex-A710 & 3x2.0 GHz Cortex-A510) Qualcomm SM8550-AB Snapdragon 8 Gen 2 (4 nm)',
             GPU: 'Adreno 740',
-            ramGB: [8, 12],
+            ram: [8, 12],
             storageGB: [128, 256, 512],
         },
 
@@ -2577,10 +2577,10 @@ export const assets = {
             resolution: '1080 x 2400',
         },
 
-        Performance: {
+        performance: {
             CPU: 'Octa-core (1x3.19 GHz Cortex-X2 & 3x2.75 GHz Cortex-A710 & 4x1.80 GHz Cortex-A510) Qualcomm SM8475 Snapdragon 8+ Gen 1 (4 nm)',
             GPU: 'Adreno 730',
-            ramGB: [8, 12],
+            ram: [8, 12],
             storageGB: [128, 256, 512],
         },
 
@@ -2619,10 +2619,10 @@ export const assets = {
             resolution: '1116 x 2480',
         },
 
-        Performance: {
+        performance: {
             CPU: 'Octa-core (1x3.3 GHz Cortex-X4 & 3x3.2 GHz Cortex-A720 & 2x3.0 GHz Cortex-A720 & 2x2.3 GHz Cortex-A520) Qualcomm SM8650-AB Snapdragon 8 Gen 3 (4 nm)',
             GPU: 'Adreno 750',
-            ramGB: [16, 24],
+            ram: [16, 24],
             storageGB: [256, 512, 1024],
         },
 
@@ -2661,10 +2661,10 @@ export const assets = {
             resolution: '1216 x 2640',
         },
 
-        Performance: {
+        performance: {
             CPU: 'Octa-core (1x3.63 GHz Cortex-X925 & 3x3.3 GHz Cortex-X4 & 4x2.4 GHz Cortex-A720) Mediatek Dimensity 9400 (3 nm)',
             GPU: 'Immortalis-G925',
-            ramGB: [12, 16],
+            ram: [12, 16],
             storageGB: [256, 512, 1024],
         },
 
@@ -2703,10 +2703,10 @@ export const assets = {
             resolution: '1080 x 2460',
         },
 
-        Performance: {
+        performance: {
             CPU: 'Octa-core (1x2.84 GHz Cortex-A77 & 3x2.42 GHz Cortex-A77 & 4x1.80 GHz Cortex-A55) Qualcomm SM8250 Snapdragon 865 5G (7 nm+)',
             GPU: 'Adreno 650',
-            ramGB: [8],
+            ram: [8],
             storageGB: [128, 256],
         },
 
@@ -2745,10 +2745,10 @@ export const assets = {
             resolution: '720 x 1280',
         },
 
-        Performance: {
+        performance: {
             CPU: 'Quad-core 1.4 GHz Cortex-A53 Qualcomm MSM8917 Snapdragon 425 (28 nm)',
             GPU: 'Adreno 308',
-            ramGB: [4],
+            ram: [4],
             storageGB: [32],
         },
 
@@ -2787,10 +2787,10 @@ export const assets = {
             resolution: '1080 x 2460',
         },
 
-        Performance: {
+        performance: {
             CPU: 'Octa-core (4x2.5 GHz Cortex-A78 & 4x2.0 GHz Cortex-A55) Mediatek Dimensity 7300 (4 nm)',
             GPU: 'Mali-G615 MP2',
-            ramGB: [16],
+            ram: [16],
             storageGB: [512],
         },
 
@@ -2828,10 +2828,10 @@ export const assets = {
             resolution: '1080 x 2408',
         },
 
-        Performance: {
+        performance: {
             CPU: 'Octa-core (2x2.6 GHz Cortex-A78 & 6x2.0 GHz Cortex-A55) Mediatek Dimensity 7050 (6 nm',
             GPU: 'Mali-G68 MC4',
-            ramGB: [16],
+            ram: [16],
             storageGB: [512],
         },
 
@@ -2869,10 +2869,10 @@ export const assets = {
             resolution: '2248 x 2480',
         },
 
-        Performance: {
+        performance: {
             CPU: '7-core (2x4.32 GHz Oryon V2 Phoenix L + 5x3.53 GHz Oryon V2 Phoenix M) Qualcomm SM8750-3-AB Snapdragon 8 Elite (3 nm)',
             GPU: 'Adreno 830',
-            ramGB: [12, 16],
+            ram: [12, 16],
             storageGB: [256, 512, 1024],
         },
 

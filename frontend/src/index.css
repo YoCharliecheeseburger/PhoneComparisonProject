@@ -5,7 +5,7 @@ body {
     background-color: #f1f1f1;
 }
 
-/*ts gon be blue themed*/
+/*ts aint gon be blue themed ):*/
 
 .navbar {
     position: relative;
@@ -62,6 +62,13 @@ body {
 
 
 
+.homeInsides {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
 
 
 
@@ -92,13 +99,11 @@ body {
 }
 
 
-.homeInsides {
-    display: flex;
-    position: relative;
-    flex-direction: column;
-    width: 100%;
-    height: auto;
-}
+
+
+
+
+
 
 .phoneList {
     display: flex;
@@ -108,7 +113,7 @@ body {
     height: auto;
 }
 
-.phoneListLayout {
+.phoneListLayoutHome {
     display: flex;
     position: relative;
     justify-content: center;
@@ -119,7 +124,7 @@ body {
     height: auto;
 }
 
-.phoneListLayout .phoneStyling {
+.phoneListLayoutHome .phoneStylingHome {
     width: 370px;
     height: auto;
     color: rgb(124, 124, 124);
@@ -127,54 +132,151 @@ body {
     margin: 10px;
 }
 
-.phoneListLayout p {
-    margin: 5px;
-}
-
-.phoneListLayout a {
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 1.2rem;
-    color: black;
-}
-
-.phoneListLayout a:hover {
-    text-decoration: underline;
-}
-
-.phoneStyling {
+.phoneStylingHome {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: column;
     width: 100%;
     background-color: white;
     border-radius: 20px;
     padding: 30px 25px;
 }
 
-.phoneText {
+.phoneStylingHome a {
+    width: 100%;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: black;
+}
+
+.phoneStylingHome a p {
+    margin: 0;
+}
+
+.phoneContentHome {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.phoneTextHome {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 100%;
+}
+
+.phoneStylingHome a:hover {
+    text-decoration: underline;
+}
+
+.phoneTextHome p {
+    text-align: right;
+    margin: 2px;
+    font-size: 1.1rem;
+}
+
+.phoneImgHome img {
+    width: 90px;
+}
+
+
+
+
+
+.compareButton{
+    border-radius: 50px;
+    width: 120px;
+    height: 50px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(223, 5, 5);
+}
+
+.compareButtonPlacement {
+    display: flex;
+    justify-content: center;
+}
+
+.phoneTextHome .compareButtonPlacement {
+    margin-top: 40px;
+}
+
+
+
+.phoneInsides {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+
+.phoneLayoutPhones {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    padding: 35px 0;
+    width: 100%;
+    height: auto;
+}
+
+.phoneStylingPhones {
+    display: flex;
+    border: 2px solid #ccc;
+    background-color: #ffffff;
+    padding: 20px 50px 20px 0;
+    border-radius: 10px;
+}
+
+.phoneImagePhones img {
     width: 200px;
 }
 
-.phoneText p {
-    text-align: right;
+.rightDesc {
+  flex: 2;
 }
 
-.phoneImg img {
-    width: 100px;
+.leftImg {
+  flex: 1;
+  text-align: center;
 }
 
-.phoneText button {
-    border-radius: 50px;
-    width: 100px;
-    height: 40px;
+
+.specBlock {
+  margin-bottom: 1rem;
 }
 
-.buttonPlacement {
+.specBlock h3 {
+  margin-bottom: 0.1rem;
+  border-bottom: 1px solid #ccc;
+}
+
+
+.phoneTopSection {
     display: flex;
-    justify-content: center;
-    margin-top: 40px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.phoneTopSection h1, .compareButtonPlacement {
+    align-content: center;
+    margin: 0;
+}
+
+.phoneTopSection h1 {
+    width: 70%;
+}
+
+.phoneTopSection .compareButtonPlacement {
+    width: 30%;
+}
+
+.phoneTopSection .compareButton {
+    width: 100%;
 }
 
 .footer {

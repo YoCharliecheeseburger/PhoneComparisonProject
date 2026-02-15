@@ -1,7 +1,7 @@
 import React from 'react'
 import FilterMenu from '../components/FilterMenu.jsx'
 import Footer from '../components/Footer.jsx'
-import ShowPhone from '../components/ShowPhone.jsx'
+import PhoneDisplayHomepg from '../components/PhoneDisplayHomepg.jsx'
 import { assets } from '../assets/assets.js'
 
 function home() {
@@ -14,8 +14,8 @@ function home() {
         </div>
       </div>
         <div className='phoneList'>
-          <div className='phoneListLayout'>
-            {Object.entries(assets).map(([key, value]) => <ShowPhone phone={value} key={key}/>)}
+          <div className='phoneListLayoutHome'>
+            {Object.entries(assets).map(([key, value]) =><PhoneDisplayHomepg phone={value} key={key}/>)}
           </div>
         </div>
       <div className='footer'>
