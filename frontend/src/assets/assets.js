@@ -92,7 +92,8 @@ export const assets = {
         },
 
         performance: {
-            CPU: 'Dual-core (2x1.1 GHz Cortex-A7) Qualcomm MSM8905 Snapdragon 205 (28 nm)',
+            CPU: 'Qualcomm MSM8905 Snapdragon 205 (28 nm)',
+            CPUdetails: 'Dual-core (2x1.1 GHz Cortex-A7)', 
             GPU: 'Adreno 304',
             ram: [512],
             storageGB: [4],
@@ -135,7 +136,8 @@ export const assets = {
         },
 
         performance: {
-            CPU: 'Octa-core (1x3.78 GHz Cortex-X4 & 5x3.05 GHz Cortex-A725 & 2x2.25 GHz Cortex-A520) Google Tensor G5 (3 nm)',
+            CPU: 'Google Tensor G5 (3 nm)',
+            CPUdetails: 'Octa-core (1x3.78 GHz Cortex-X4 & 5x3.05 GHz Cortex-A725 & 2x2.25 GHz Cortex-A520)',
             GPU: 'PowerVR DXT-48-1536',
             ram: [16],
             storageGB: [128, 256, 512, 1024],
@@ -177,7 +179,8 @@ export const assets = {
         },
 
         performance: {
-            CPU: 'Octa-core (1x3.1 GHz Cortex-X4 & 3x2.6 GHz Cortex-A720 & 4x1.92 GHz Cortex-A520) Google Tensor G4 (4 nm)',
+            CPU: 'Google Tensor G4 (4 nm)',
+            CPUdetails: 'Octa-core (1x3.1 GHz Cortex-X4 & 3x2.6 GHz Cortex-A720 & 4x1.92 GHz Cortex-A520)', 
             GPU: 'Mali-G715 MC7',
             ram: [12],
             storageGB: [128, 256],
@@ -219,7 +222,8 @@ export const assets = {
         },
 
         performance: {
-            CPU: 'Octa-core (1x3.78 GHz Cortex-X4 & 5x3.05 GHz Cortex-A725 & 2x2.25 GHz Cortex-A520) Google Tensor G5 (3 nm) ',
+            CPU: 'Google Tensor G5 (3 nm) ', 
+            CPUdetails: 'Octa-core (1x3.78 GHz Cortex-X4 & 5x3.05 GHz Cortex-A725 & 2x2.25 GHz Cortex-A520)',
             GPU: 'PowerVR DXT-48-1536',
             ram: [16],
             storageGB: [256, 512, 1024],
@@ -261,7 +265,8 @@ export const assets = {
         },
 
         performance: {
-            CPU: 'Octa-core (2x2.80 GHz Cortex-X1 & 2x2.25 GHz Cortex-A76 & 4x1.80 GHz Cortex-A55) Google Tensor (5 nm)',
+            CPU: 'Google Tensor (5 nm)', 
+            CPUdetails: 'Octa-core (2x2.80 GHz Cortex-X1 & 2x2.25 GHz Cortex-A76 & 4x1.80 GHz Cortex-A55)',
             GPU: 'Mali-G78 MP20',
             ram: [8],
             storageGB: [128, 256],
@@ -303,7 +308,8 @@ export const assets = {
         },
 
         performance: {
-            CPU: 'Octa-core (2x2.85 GHz Cortex-X1 & 2x2.35 GHz Cortex-A78 & 4x1.80 GHz Cortex-A55) Google Tensor G2 (5 nm)',
+            CPU: 'Google Tensor G2 (5 nm)', 
+            CPUdetails: 'Octa-core (2x2.85 GHz Cortex-X1 & 2x2.35 GHz Cortex-A78 & 4x1.80 GHz Cortex-A55)',
             GPU: 'Mali-G710 MP7',
             ram: [12],
             storageGB: [256, 512],
@@ -346,7 +352,8 @@ export const assets = {
         },
 
         performance: {
-            CPU: 'Hexa-core (2x4.05 GHz + 4x2.42 GHz) Apple A18 Pro (3 nm)',
+            CPU: 'Apple A18 Pro (3 nm)', 
+            CPUdetails: 'Hexa-core (2x4.05 GHz + 4x2.42 GHz)',
             GPU: 'Apple GPU (6-core graphics)',
             ram: [8],
             storageGB: [128, 256, 512, 1024],
@@ -388,7 +395,8 @@ export const assets = {
         },
 
         performance: {
-            CPU: 'Hexa-core (2x4.26 GHz + 4xX.X GHz) Apple A19 Pro (3 nm)',
+            CPU: 'Apple A19 Pro (3 nm)', 
+            CPUdetails: 'Hexa-core (2x4.26 GHz + 4xX.X GHz)',
             GPU: 'Apple GPU (5-core graphics)',
             ram: [12],
             storageGB: [256, 512, 1024],
@@ -430,7 +438,8 @@ export const assets = {
         },
 
         performance: {
-            CPU: 'Hexa-core (2x4.04 GHz + 4x2.20 GHz) Apple A18 (3 nm)',
+            CPU: 'Apple A18 (3 nm)', 
+            CPUdetails: 'Hexa-core (2x4.04 GHz + 4x2.20 GHz)',
             GPU: 'Apple GPU (4-core graphics)',
             ram: [8],
             storageGB: [128, 256, 512],
@@ -472,7 +481,8 @@ export const assets = {
         },
 
         performance: {
-            CPU: 'Hexa-core (2x3.23 GHz Avalanche + 4x1.82 GHz Blizzard) Apple A15 Bionic (5 nm)',
+            CPU: 'Apple A15 Bionic (5 nm)', 
+            CPUdetails: 'Hexa-core (2x3.23 GHz Avalanche + 4x1.82 GHz Blizzard)',
             GPU: 'Apple GPU (5-core graphics)',
             ram: [6],
             storageGB: [128, 256, 512],
@@ -485,7 +495,7 @@ export const assets = {
 
         connectivity: {
             bluetoothVersion: '5.3',
-            portType: ['Lightning', 'USB 2.0'],
+            portType: 'Lightning, USB 2.0',
             headphoneJack: false,
         }
     },
@@ -514,7 +524,8 @@ export const assets = {
         },
 
         performance: {
-            CPU: 'Hexa-core (2x3.46 GHz Everest + 4x2.02 GHz Sawtooth) Apple A16 Bionic (4 nm)',
+            CPU: 'Apple A16 Bionic (4 nm)', 
+            CPUdetails: 'Hexa-core (2x3.46 GHz Everest + 4x2.02 GHz Sawtooth)',
             GPU: 'Apple GPU (5-core graphics)',
             ram: [6],
             storageGB: [128, 256, 512, 1024],
@@ -556,7 +567,8 @@ export const assets = {
         },
 
         performance: {
-            CPU: 'Hexa-core (2x3.46 GHz Everest + 4x2.02 GHz Sawtooth) Apple A16 Bionic (4 nm)',
+            CPU: 'Apple A16 Bionic (4 nm)', 
+            CPUdetails: 'Hexa-core (2x3.46 GHz Everest + 4x2.02 GHz Sawtooth)',
             GPU: 'Apple GPU (5-core graphics)',
             ram: [6],
             storageGB: [128, 256, 512],
@@ -598,7 +610,8 @@ export const assets = {
         },
 
         performance: {
-            CPU: 'Hexa-core (2x3.23 GHz Avalanche + 4x1.82 GHz Blizzard) Apple A15 Bionic (5 nm)',
+            CPU: 'Apple A15 Bionic (5 nm)', 
+            CPUdetails: 'Hexa-core (2x3.23 GHz Avalanche + 4x1.82 GHz Blizzard)',
             GPU: 'Apple GPU (5-core graphics)',
             ram: [6],
             storageGB: [128, 256, 512, 1024],
@@ -611,7 +624,7 @@ export const assets = {
 
         connectivity: {
             bluetoothVersion: '5.0',
-            portType: ['Lightning', 'USB 2.0'],
+            portType: 'Lightning, USB 2.0',
             headphoneJack: false,
         }
     },
@@ -640,7 +653,8 @@ export const assets = {
         },
 
         performance: {
-            CPU: 'Hexa-core (2x3.23 GHz Avalanche + 4x1.82 GHz Blizzard) Apple A15 Bionic (5 nm)',
+            CPU: 'Apple A15 Bionic (5 nm)', 
+            CPUdetails: 'Hexa-core (2x3.23 GHz Avalanche + 4x1.82 GHz Blizzard)',
             GPU: 'Apple GPU (5-core graphics)',
             ram: [6],
             storageGB: [128, 256, 512],
@@ -653,7 +667,7 @@ export const assets = {
 
         connectivity: {
             bluetoothVersion: '5.3',
-            portType: ['Lightning', 'USB 2.0'],
+            portType: 'Lightning, USB 2.0',
             headphoneJack: false,
         }
     },
@@ -682,7 +696,8 @@ export const assets = {
         },
 
         performance: {
-            CPU: 'Hexa-core (2x4.26 GHz + 4xX.X GHz) Apple A19 (3 nm)',
+            CPU: 'Apple A19 (3 nm)', 
+            CPUdetails: 'Hexa-core (2x4.26 GHz + 4xX.X GHz)',
             GPU: 'Apple GPU (5-core graphics)',
             ram: [8],
             storageGB: [256, 512],
@@ -725,7 +740,8 @@ export const assets = {
         },
 
         performance: {
-            CPU: 'Octa-core (1x3.00 GHz Cortex-X2 & 3x2.50 GHz Cortex-A710 & 4x1.80 GHz Cortex-A510) Qualcomm SM8450 Snapdragon 8 Gen 1 (4 nm)',
+            CPU: 'Qualcomm SM8450 Snapdragon 8 Gen 1 (4 nm)', 
+            CPUdetails: 'Octa-core (1x3.00 GHz Cortex-X2 & 3x2.50 GHz Cortex-A710 & 4x1.80 GHz Cortex-A510)',
             GPU: 'Adreno 730',
             ram: [8, 12],
             storageGB: [128, 256],
@@ -767,7 +783,8 @@ export const assets = {
         },
 
         performance: {
-            CPU: ' 	Octa-core (1x3.63 GHz Cortex-X925 & 3x3.3 GHz Cortex-X4 & 4x2.4 GHz Cortex-A720) Mediatek Dimensity 9400+ (3 nm)',
+            CPU: 'Mediatek Dimensity 9400+ (3 nm)', 
+            CPUdetails: 'Octa-core (1x3.63 GHz Cortex-X925 & 3x3.3 GHz Cortex-X4 & 4x2.4 GHz Cortex-A720)',
             GPU: 'Immortalis-G925',
             ram: [12],
             storageGB: [256, 512, 1024],
@@ -809,7 +826,8 @@ export const assets = {
         },
 
         performance: {
-            CPU: 'Octa-core (1x3.2 GHz Cortex-X3 & 2x2.8 GHz Cortex-A715 & 2x2.8 GHz Cortex-A710 & 3x2.0 GHz Cortex-A510) Qualcomm SM8550-AB Snapdragon 8 Gen 2 (4 nm)',
+            CPU: 'Qualcomm SM8550-AB Snapdragon 8 Gen 2 (4 nm)', 
+            CPUdetails: 'Octa-core (1x3.2 GHz Cortex-X3 & 2x2.8 GHz Cortex-A715 & 2x2.8 GHz Cortex-A710 & 3x2.0 GHz Cortex-A510)',
             GPU: 'Adreno 740',
             ram: [12, 16],
             storageGB: [256, 512, 1024],
@@ -851,7 +869,8 @@ export const assets = {
         },
 
         performance: {
-            CPU: 'Octa-core (1x3.3 GHz Cortex-X4 & 3x3.2 GHz Cortex-A720 & 2x3.0 GHz Cortex-A720 & 2x2.3 GHz Cortex-A520) Qualcomm SM8650-AB Snapdragon 8 Gen 3 (4 nm)',
+            CPU: 'Qualcomm SM8650-AB Snapdragon 8 Gen 3 (4 nm)', 
+            CPUdetails: 'Octa-core (1x3.3 GHz Cortex-X4 & 3x3.2 GHz Cortex-A720 & 2x3.0 GHz Cortex-A720 & 2x2.3 GHz Cortex-A520)',
             GPU: 'Adreno 750',
             ram: [12, 16],
             storageGB: [256, 512, 1024],
@@ -893,7 +912,8 @@ export const assets = {
         },
 
         performance: {
-            CPU: 'Octa-core (1x3.2 GHz Cortex-X3 & 2x2.8 GHz Cortex-A715 & 2x2.8 GHz Cortex-A710 & 3x2.0 GHz Cortex-A510) Qualcomm SM8550-AB Snapdragon 8 Gen 2 (4 nm)',
+            CPU: 'Qualcomm SM8550-AB Snapdragon 8 Gen 2 (4 nm)', 
+            CPUdetails: 'Octa-core (1x3.2 GHz Cortex-X3 & 2x2.8 GHz Cortex-A715 & 2x2.8 GHz Cortex-A710 & 3x2.0 GHz Cortex-A510)',
             GPU: 'Adreno 740',
             ram: [8, 12],
             storageGB: [128, 256, 512],
@@ -935,7 +955,8 @@ export const assets = {
         },
 
         performance: {
-            CPU: 'Octa-core (1x3.2 GHz Cortex-X3 & 2x2.8 GHz Cortex-A715 & 2x2.8 GHz Cortex-A710 & 3x2.0 GHz Cortex-A510) Qualcomm SM8550-AB Snapdragon 8 Gen 2 (4 nm)',
+            CPU: 'Qualcomm SM8550-AB Snapdragon 8 Gen 2 (4 nm)', 
+            CPUdetails: 'Octa-core (1x3.2 GHz Cortex-X3 & 2x2.8 GHz Cortex-A715 & 2x2.8 GHz Cortex-A710 & 3x2.0 GHz Cortex-A510)',
             GPU: 'Adreno 740',
             ram: [8, 12],
             storageGB: [128, 256, 512],
@@ -977,7 +998,8 @@ export const assets = {
         },
 
         performance: {
-            CPU: 'Octa-core (2x4.6 GHz Oryon V3 Phoenix L + 6x3.62 GHz Oryon V3 Phoenix M) Qualcomm SM8850-AC Snapdragon 8 Elite Gen 5 (3 nm)',
+            CPU: 'Qualcomm SM8850-AC Snapdragon 8 Elite Gen 5 (3 nm)', 
+            CPUdetails: 'Octa-core (2x4.6 GHz Oryon V3 Phoenix L + 6x3.62 GHz Oryon V3 Phoenix M)',
             GPU: 'Adreno 840',
             ram: [12, 16],
             storageGB: [256, 512, 1024],
@@ -1019,7 +1041,8 @@ export const assets = {
         },
 
         performance: {
-            CPU: 'Octa-core (1x3.21 GHz Cortex-X4 & 3x3.0 GHz Cortex-A720 & 2x2.8 GHz Cortex-A720 & 2x2.0 GHz Cortex-A720) Qualcomm SM8735 Snapdragon 8s Gen 4 (4 nm)',
+            CPU: 'Qualcomm SM8735 Snapdragon 8s Gen 4 (4 nm)', 
+            CPUdetails: 'Octa-core (1x3.21 GHz Cortex-X4 & 3x3.0 GHz Cortex-A720 & 2x2.8 GHz Cortex-A720 & 2x2.0 GHz Cortex-A720)',
             GPU: 'Adreno 825',
             ram: [12],
             storageGB: [256, 512],
@@ -1061,7 +1084,8 @@ export const assets = {
         },
 
         performance: {
-            CPU: 'Octa-core (1x3.3 GHz Cortex-X4 & 3x3.2 GHz Cortex-A720 & 2x3.0 GHz Cortex-A720 & 2x2.3 GHz Cortex-A520) Qualcomm SM8650-AB Snapdragon 8 Gen 3 (4 nm)',
+            CPU: 'Qualcomm SM8650-AB Snapdragon 8 Gen 3 (4 nm)', 
+            CPUdetails: 'Octa-core (1x3.3 GHz Cortex-X4 & 3x3.2 GHz Cortex-A720 & 2x3.0 GHz Cortex-A720 & 2x2.3 GHz Cortex-A520)',
             GPU: 'Adreno 750',
             ram: [12, 16],
             storageGB: [256, 512, 1024],
@@ -1103,7 +1127,8 @@ export const assets = {
         },
 
         performance: {
-            CPU: 'Octa-core (1x3.25 GHz Cortex-A725 & 3x3.0 GHz Cortex-A725 & 4x2.1 GHz Cortex-A725) Mediatek Dimensity 8400 Ultra (4 nm)',
+            CPU: 'Mediatek Dimensity 8400 Ultra (4 nm)', 
+            CPUdetails: 'Octa-core (1x3.25 GHz Cortex-A725 & 3x3.0 GHz Cortex-A725 & 4x2.1 GHz Cortex-A725)',
             GPU: 'Mali-G720 MC7',
             ram: [8, 12],
             storageGB: [256, 512],
@@ -1145,7 +1170,8 @@ export const assets = {
         },
 
         performance: {
-            CPU: 'Octa-core (1x3.0 GHz Cortex-X2 & 3x2.5 GHz Cortex-A710 & 4x1.80 GHz Cortex-A510) Qualcomm SM8475 Snapdragon 8+ Gen 1 (4 nm)',
+            CPU: 'Qualcomm SM8475 Snapdragon 8+ Gen 1 (4 nm)', 
+            CPUdetails: 'Octa-core (1x3.0 GHz Cortex-X2 & 3x2.5 GHz Cortex-A710 & 4x1.80 GHz Cortex-A510)',
             GPU: 'Adreno 730',
             ram: [8, 12, 16],
             storageGB: [128, 256, 512, 1024],
@@ -1187,7 +1213,8 @@ export const assets = {
         },
 
         performance: {
-            CPU: 'Octa-core (1x3.25 GHz Cortex-A725 & 3x3.0 GHz Cortex-A725 & 4x2.1 GHz Cortex-A725) Mediatek Dimensity 8400 Ultra (4 nm)',
+            CPU: 'Mediatek Dimensity 8400 Ultra (4 nm)', 
+            CPUdetails: 'Octa-core (1x3.25 GHz Cortex-A725 & 3x3.0 GHz Cortex-A725 & 4x2.1 GHz Cortex-A725)',
             GPU: 'Mali-G720 MC7',
             ram: [12],
             storageGB: [256, 512],
@@ -1230,7 +1257,8 @@ export const assets = {
         },
 
         performance: {
-            CPU: 'Octa-core (2x4.6 GHz Oryon V3 Phoenix L + 6x3.62 GHz Oryon V3 Phoenix M) Qualcomm SM8850-AC Snapdragon 8 Elite Gen 5 (3 nm)',
+            CPU: 'Qualcomm SM8850-AC Snapdragon 8 Elite Gen 5 (3 nm)', 
+            CPUdetails: 'Octa-core (2x4.6 GHz Oryon V3 Phoenix L + 6x3.62 GHz Oryon V3 Phoenix M)',
             GPU: 'Adreno 840',
             ram: [12, 16],
             storageGB: [256, 512, 1024],
@@ -1272,7 +1300,8 @@ export const assets = {
         },
 
         performance: {
-            CPU: 'Octa-core (2x3.8 GHz Oryon V3 Phoenix L + 6x3.32 GHz Oryon V3 Phoenix M) Qualcomm SM8845 Snapdragon 8 Gen 5 (3 nm)',
+            CPU: 'Qualcomm SM8845 Snapdragon 8 Gen 5 (3 nm)', 
+            CPUdetails: 'Octa-core (2x3.8 GHz Oryon V3 Phoenix L + 6x3.32 GHz Oryon V3 Phoenix M)',
             GPU: 'Adreno 829',
             ram: [12],
             storageGB: [256, 512],
@@ -1314,7 +1343,8 @@ export const assets = {
         },
 
         performance: {
-            CPU: 'Octa-core (1x2.84 GHz Cortex-X1 & 3x2.42 GHz Cortex-A78 & 4x1.80 GHz Cortex-A55 Qualcomm SM8350 Snapdragon 888 5G (5 nm)',
+            CPU: 'Qualcomm SM8350 Snapdragon 888 5G (5 nm)', 
+            CPUdetails: 'Octa-core (1x2.84 GHz Cortex-X1 & 3x2.42 GHz Cortex-A78 & 4x1.80 GHz Cortex-A55)',
             GPU: 'Adreno 660',
             ram: [8, 12],
             storageGB: [128, 256,],
@@ -1356,7 +1386,8 @@ export const assets = {
         },
 
         performance: {
-            CPU: 'Octa-core (1x2.84 GHz Cortex-A77 & 3x2.42 GHz Cortex-A77 & 4x1.80 GHz Cortex-A55) Qualcomm SM8250 Snapdragon 865 5G (7 nm+)',
+            CPU: 'Qualcomm SM8250 Snapdragon 865 5G (7 nm+)', 
+            CPUdetails: 'Octa-core (1x2.84 GHz Cortex-A77 & 3x2.42 GHz Cortex-A77 & 4x1.80 GHz Cortex-A55)',
             GPU: 'Adreno 650',
             ram: [6, 8, 12],
             storageGB: [128, 256],
@@ -1398,7 +1429,8 @@ export const assets = {
         },
 
         performance: {
-            CPU: 'Octa-core (2x4.32 GHz Oryon V2 Phoenix L + 6x3.53 GHz Oryon V2 Phoenix M) Qualcomm SM8750-AB Snapdragon 8 Elite (3 nm)',
+            CPU: 'Qualcomm SM8750-AB Snapdragon 8 Elite (3 nm)', 
+            CPUdetails: 'Octa-core (2x4.32 GHz Oryon V2 Phoenix L + 6x3.53 GHz Oryon V2 Phoenix M)',
             GPU: 'Adreno 830',
             ram: [12],
             storageGB: [256, 512],
@@ -1441,7 +1473,8 @@ export const assets = {
         },
 
         performance: {
-            CPU: 'Octa-core (1x3.36 GHz Cortex-X3 & 2x2.8 GHz Cortex-A715 & 2x2.8 GHz Cortex-A710 & 3x2.0 GHz Cortex-A510) Qualcomm SM8550-AC Snapdragon 8 Gen 2 (4 nm)',
+            CPU: 'Qualcomm SM8550-AC Snapdragon 8 Gen 2 (4 nm)', 
+            CPUdetails: 'Octa-core (1x3.36 GHz Cortex-X3 & 2x2.8 GHz Cortex-A715 & 2x2.8 GHz Cortex-A710 & 3x2.0 GHz Cortex-A510)',
             GPU: 'Adreno 740',
             ram: [8],
             storageGB: [256, 512],
@@ -1483,7 +1516,8 @@ export const assets = {
         },
 
         performance: {
-            CPU: 'Octa-core (2x4.47 GHz Oryon V2 Phoenix L + 6x3.53 GHz Oryon V2 Phoenix M) Qualcomm SM8750-AC Snapdragon 8 Elite (3 nm)',
+            CPU: 'Qualcomm SM8750-AC Snapdragon 8 Elite (3 nm)', 
+            CPUdetails: 'Octa-core (2x4.47 GHz Oryon V2 Phoenix L + 6x3.53 GHz Oryon V2 Phoenix M)',
             GPU: 'Adreno 830 (1200 MHz)',
             ram: [12],
             storageGB: [128, 256, 512],
@@ -1525,7 +1559,8 @@ export const assets = {
         },
 
         performance: {
-            CPU: 'Octa-core (2x4.47 GHz Oryon V2 Phoenix L + 6x3.53 GHz Oryon V2 Phoenix M) Qualcomm SM8750-AC Snapdragon 8 Elite (3 nm)',
+            CPU: 'Qualcomm SM8750-AC Snapdragon 8 Elite (3 nm)', 
+            CPUdetails: 'Octa-core (2x4.47 GHz Oryon V2 Phoenix L + 6x3.53 GHz Oryon V2 Phoenix M)',
             GPU: 'Adreno 830 (1200 MHz)',
             ram: [12, 16],
             storageGB: [256, 512, 1024],
@@ -1567,7 +1602,8 @@ export const assets = {
         },
 
         performance: {
-            CPU: 'Octa-core (2x4.47 GHz Oryon V2 Phoenix L + 6x3.53 GHz Oryon V2 Phoenix M) Qualcomm SM8750-AC Snapdragon 8 Elite (3 nm)',
+            CPU: 'Qualcomm SM8750-AC Snapdragon 8 Elite (3 nm)', 
+            CPUdetails: 'Octa-core (2x4.47 GHz Oryon V2 Phoenix L + 6x3.53 GHz Oryon V2 Phoenix M)',
             GPU: 'Adreno 830 (1200 MHz)',
             ram: [12, 16],
             storageGB: [256, 512, 1024],
@@ -1609,7 +1645,8 @@ export const assets = {
         },
 
         performance: {
-            CPU: 'Octa-core (1x2.8 GHz Cortex-X2 & 3x2.50 GHz Cortex-A710 & 4x1.8 GHz Cortex-A510) Exynos 2200 (4 nm)',
+            CPU: 'Exynos 2200 (4 nm)', 
+            CPUdetails: 'Octa-core (1x2.8 GHz Cortex-X2 & 3x2.50 GHz Cortex-A710 & 4x1.8 GHz Cortex-A510)',
             GPU: 'Xclipse 920',
             ram: [8, 12],
             storageGB: [128, 256, 512, 1024],
@@ -1651,7 +1688,8 @@ export const assets = {
         },
 
         performance: {
-            CPU: 'Octa-core (1x2.9 GHz Cortex-X1 & 3x2.80 GHz Cortex-A78 & 4x2.2 GHz Cortex-A55) Exynos 2100 (5 nm)',
+            CPU: 'Exynos 2100 (5 nm)', 
+            CPUdetails: 'Octa-core (1x2.9 GHz Cortex-X1 & 3x2.80 GHz Cortex-A78 & 4x2.2 GHz Cortex-A55)',
             GPU: 'Mali-G78 MP14',
             ram: [8, 12, 16],
             storageGB: [128, 256, 512],
@@ -1693,7 +1731,8 @@ export const assets = {
         },
 
         performance: {
-            CPU: '10-core (1x3.2GHz Cortex-X4 & 2x2.9GHz Cortex-A720 & 3x2.6GHz Cortex-A720 & 4x1.95GHz Cortex-A520) Exynos 2400 (4 nm)',
+            CPU: 'Exynos 2400 (4 nm)', 
+            CPUdetails: '10-core (1x3.2GHz Cortex-X4 & 2x2.9GHz Cortex-A720 & 3x2.6GHz Cortex-A720 & 4x1.95GHz Cortex-A520)',
             GPU: 'Xclipse 940',
             ram: [8],
             storageGB: [128, 256, 512],
@@ -1735,7 +1774,8 @@ export const assets = {
         },
 
         performance: {
-            CPU: 'Octa-core (1x2.9 GHz Cortex-X1 & 3x2.80 GHz Cortex-A78 & 4x2.2 GHz Cortex-A55) Exynos 2100',
+            CPU: 'Exynos 2100', 
+            CPUdetails: 'Octa-core (1x2.9 GHz Cortex-X1 & 3x2.80 GHz Cortex-A78 & 4x2.2 GHz Cortex-A55)',
             GPU: 'Mali-G78 MP14',
             ram: [6, 8],
             storageGB: [128, 256],
@@ -1777,7 +1817,8 @@ export const assets = {
         },
 
         performance: {
-            CPU: 'Octa-core (1x2.8 GHz Cortex-X2 & 3x2.50 GHz Cortex-A710 & 4x1.8 GHz Cortex-A510) Exynos 2200 (4 nm)',
+            CPU: 'Exynos 2200 (4 nm)', 
+            CPUdetails: 'Octa-core (1x2.8 GHz Cortex-X2 & 3x2.50 GHz Cortex-A710 & 4x1.8 GHz Cortex-A510)',
             GPU: 'Xclipse 920',
             ram: [8],
             storageGB: [128, 256],
@@ -1819,7 +1860,8 @@ export const assets = {
         },
 
         performance: {
-            CPU: '10-core (1x3.1 GHz + 2x2.9 GHz + 3x2.6 GHz + 4x1.95 GHz) Exynos 2400e (4 nm)',
+            CPU: 'Exynos 2400e (4 nm)', 
+            CPUdetails: '10-core (1x3.1 GHz + 2x2.9 GHz + 3x2.6 GHz + 4x1.95 GHz)',
             GPU: 'Xclipse 940',
             ram: [8],
             storageGB: [128, 256, 512],
@@ -1861,7 +1903,8 @@ export const assets = {
         },
 
         performance: {
-            CPU: '10-core (1x3.2GHz Cortex-X4 & 2x2.9GHz Cortex-A720 & 3x2.6GHz Cortex-A720 & 4x1.95GHz Cortex-A520) Exynos 2400 (4 nm)',
+            CPU: 'Exynos 2400 (4 nm)', 
+            CPUdetails: '10-core (1x3.2GHz Cortex-X4 & 2x2.9GHz Cortex-A720 & 3x2.6GHz Cortex-A720 & 4x1.95GHz Cortex-A520)',
             GPU: 'Xclipse 940',
             ram: [8, 12],
             storageGB: [128, 256, 512],
@@ -1903,7 +1946,8 @@ export const assets = {
         },
 
         performance: {
-            CPU: 'Octa-core (2x2.73 GHz Mongoose M4 & 2x2.4 GHz Cortex-A75 & 4x1.9 GHz Cortex-A55) Exynos 9825 (7 nm)',
+            CPU: 'Exynos 9825 (7 nm)', 
+            CPUdetails: 'Octa-core (2x2.73 GHz Mongoose M4 & 2x2.4 GHz Cortex-A75 & 4x1.9 GHz Cortex-A55)',
             GPU: 'Mali-G76 MP12',
             ram: [12],
             storageGB: [256, 512],
@@ -1946,7 +1990,8 @@ export const assets = {
         },
 
         performance: {
-            CPU: 'Octa-core (1x3.21 GHz Cortex-X4 & 3x3.0 GHz Cortex-A720 & 2x2.8 GHz Cortex-A720 & 2x2.0 GHz Cortex-A720) Qualcomm SM8735 Snapdragon 8s Gen 4 (4 nm)',
+            CPU: 'Qualcomm SM8735 Snapdragon 8s Gen 4 (4 nm)', 
+            CPUdetails: 'Octa-core (1x3.21 GHz Cortex-X4 & 3x3.0 GHz Cortex-A720 & 2x2.8 GHz Cortex-A720 & 2x2.0 GHz Cortex-A720)',
             GPU: 'Adreno 825',
             ram: [12, 16],
             storageGB: [256, 512],
@@ -1988,7 +2033,8 @@ export const assets = {
         },
 
         performance: {
-            CPU: 'Octa-core (1x2.5 GHz Cortex-A720 & 3x2.4 GHz Cortex-A720 & 4x1.8 GHz Cortex-A520) Qualcomm SM7635 Snapdragon 7s Gen 3 (4 nm)',
+            CPU: 'Qualcomm SM7635 Snapdragon 7s Gen 3 (4 nm)', 
+            CPUdetails: 'Octa-core (1x2.5 GHz Cortex-A720 & 3x2.4 GHz Cortex-A720 & 4x1.8 GHz Cortex-A520)',
             GPU: 'Adreno 810',
             ram: [8, 12],
             storageGB: [128, 256],
@@ -2031,7 +2077,8 @@ export const assets = {
         },
 
         performance: {
-            CPU: 'Octa-core (1x3.2 GHz Cortex-X3 & 2x2.8 GHz Cortex-A715 & 2x2.8 GHz Cortex-A710 & 3x2.0 GHz Cortex-A510) Qualcomm SM8550-AB Snapdragon 8 Gen 2 (4 nm)',
+            CPU: 'Qualcomm SM8550-AB Snapdragon 8 Gen 2 (4 nm)', 
+            CPUdetails: 'Octa-core (1x3.2 GHz Cortex-X3 & 2x2.8 GHz Cortex-A715 & 2x2.8 GHz Cortex-A710 & 3x2.0 GHz Cortex-A510)',
             GPU: 'Adreno 740',
             ram: [12, 16],
             storageGB: [256, 512],
@@ -2044,7 +2091,7 @@ export const assets = {
 
         connectivity: {
             bluetoothVersion: '5.3',
-            portType: ['USB Type-C 3.1 (side)', 'Type-C 2.0 (bottom)'],
+            portType: 'USB Type-C 3.1 (side), Type-C 2.0 (bottom)',
             headphoneJack: true,
         }
     },
@@ -2073,7 +2120,8 @@ export const assets = {
         },
 
         performance: {
-            CPU: 'Octa-core (1x3.3 GHz Cortex-X4 & 3x3.2 GHz Cortex-A720 & 2x3.0 GHz Cortex-A720 & 2x2.3 GHz Cortex-A520) Qualcomm SM8650-AB Snapdragon 8 Gen 3 (4 nm)',
+            CPU: 'Qualcomm SM8650-AB Snapdragon 8 Gen 3 (4 nm)', 
+            CPUdetails: 'Octa-core (1x3.3 GHz Cortex-X4 & 3x3.2 GHz Cortex-A720 & 2x3.0 GHz Cortex-A720 & 2x2.3 GHz Cortex-A520)',
             GPU: 'Adreno 750',
             ram: [12, 16],
             storageGB: [256],
@@ -2086,7 +2134,7 @@ export const assets = {
 
         connectivity: {
             bluetoothVersion: '5.4',
-            portType: ['USB Type-C (side)', 'USB Type-C (bottom)'],
+            portType: 'USB Type-C (side), USB Type-C (bottom)',
             headphoneJack: true,
         }
     },
@@ -2115,7 +2163,8 @@ export const assets = {
         },
 
         performance: {
-            CPU: 'Octa-core (1x3.3 GHz Cortex-X4 & 3x3.2 GHz Cortex-A720 & 2x3.0 GHz Cortex-A720 & 2x2.3 GHz Cortex-A520) Qualcomm SM8650-AB Snapdragon 8 Gen 3 (4 nm)',
+            CPU: 'Qualcomm SM8650-AB Snapdragon 8 Gen 3 (4 nm)', 
+            CPUdetails: 'Octa-core (1x3.3 GHz Cortex-X4 & 3x3.2 GHz Cortex-A720 & 2x3.0 GHz Cortex-A720 & 2x2.3 GHz Cortex-A520)',
             GPU: 'Adreno 750',
             ram: [16, 24],
             storageGB: [512, 1024],
@@ -2128,7 +2177,7 @@ export const assets = {
 
         connectivity: {
             bluetoothVersion: '5.4',
-            portType: ['USB Type-C (side)', 'USB Type-C (bottom)'],
+            portType: 'USB Type-C (side), USB Type-C (bottom)',
             headphoneJack: true,
         }
     },
@@ -2158,7 +2207,8 @@ export const assets = {
         },
 
         performance: {
-            CPU: 'Octa-core (1x3.2 GHz Cortex-X3 & 2x2.8 GHz Cortex-A715 & 2x2.8 GHz Cortex-A710 & 3x2.0 GHz Cortex-A510) Qualcomm SM8550-AB Snapdragon 8 Gen 2 (4 nm)',
+            CPU: 'Qualcomm SM8550-AB Snapdragon 8 Gen 2 (4 nm)', 
+            CPUdetails: 'Octa-core (1x3.2 GHz Cortex-X3 & 2x2.8 GHz Cortex-A715 & 2x2.8 GHz Cortex-A710 & 3x2.0 GHz Cortex-A510)',
             GPU: 'Adreno 740',
             ram: [16],
             storageGB: [512],
@@ -2200,7 +2250,8 @@ export const assets = {
         },
 
         performance: {
-            CPU: 'Octa-core (1x3.0 GHz Cortex-X4 & 4x2.8 GHz Cortex-A720 & 3x2.0 GHz Cortex-A520) Qualcomm SM8635 Snapdragon 8s Gen 3 (4 nm)',
+            CPU: 'Qualcomm SM8635 Snapdragon 8s Gen 3 (4 nm)', 
+            CPUdetails: 'Octa-core (1x3.0 GHz Cortex-X4 & 4x2.8 GHz Cortex-A720 & 3x2.0 GHz Cortex-A520)',
             GPU: 'Adreno 735',
             ram: [12, 16],
             storageGB: [256, 512, 1024],
@@ -2242,7 +2293,8 @@ export const assets = {
         },
 
         performance: {
-            CPU: 'Octa-core (2x4.32 GHz Oryon V2 Phoenix L + 6x3.53 GHz Oryon V2 Phoenix M) Qualcomm SM8750-AB Snapdragon 8 Elite (3 nm)',
+            CPU: 'Qualcomm SM8750-AB Snapdragon 8 Elite (3 nm)', 
+            CPUdetails: 'Octa-core (2x4.32 GHz Oryon V2 Phoenix L + 6x3.53 GHz Oryon V2 Phoenix M)',
             GPU: 'Adreno 830',
             ram: [12, 16],
             storageGB: [256, 512, 1024],
@@ -2283,7 +2335,8 @@ export const assets = {
         },
 
         performance: {
-            CPU: 'Octa-core (2x4.32 GHz Oryon V2 Phoenix L + 6x3.53 GHz Oryon V2 Phoenix M) Qualcomm SM8750-AB Snapdragon 8 Elite (3 nm)',
+            CPU: 'Qualcomm SM8750-AB Snapdragon 8 Elite (3 nm)', 
+            CPUdetails: 'Octa-core (2x4.32 GHz Oryon V2 Phoenix L + 6x3.53 GHz Oryon V2 Phoenix M)',
             GPU: 'Adreno 830',
             ram: [12, 16],
             storageGB: [256, 512, 1024],
@@ -2325,7 +2378,8 @@ export const assets = {
         },
 
         performance: {
-            CPU: 'Octa-core (1x3.3 GHz Cortex-X4 & 3x3.2 GHz Cortex-A720 & 2x3.0 GHz Cortex-A720 & 2x2.3 GHz Cortex-A520) Qualcomm SM8650-AB Snapdragon 8 Gen 3 (4 nm)',
+            CPU: 'Qualcomm SM8650-AB Snapdragon 8 Gen 3 (4 nm)', 
+            CPUdetails: 'Octa-core (1x3.3 GHz Cortex-X4 & 3x3.2 GHz Cortex-A720 & 2x3.0 GHz Cortex-A720 & 2x2.3 GHz Cortex-A520)',
             GPU: 'Adreno 750',
             ram: [16],
             storageGB: [512, 1024],
@@ -2367,7 +2421,8 @@ export const assets = {
         },
 
         performance: {
-            CPU: 'Octa-core (2x4.32 GHz Oryon V2 Phoenix L + 6x3.53 GHz Oryon V2 Phoenix M) Qualcomm SM8750-AB Snapdragon 8 Elite (3 nm)',
+            CPU: 'Qualcomm SM8750-AB Snapdragon 8 Elite (3 nm)', 
+            CPUdetails: 'Octa-core (2x4.32 GHz Oryon V2 Phoenix L + 6x3.53 GHz Oryon V2 Phoenix M)',
             GPU: 'Adreno 830',
             ram: [12, 16],
             storageGB: [256, 512, 1024],
@@ -2410,7 +2465,8 @@ export const assets = {
         },
 
         performance: {
-            CPU: 'Octa-core (1x3.2 GHz Cortex-X3 & 2x2.8 GHz Cortex-A715 & 2x2.8 GHz Cortex-A710 & 3x2.0 GHz Cortex-A510) Qualcomm SM8550-AB Snapdragon 8 Gen 2 (4 nm)',
+            CPU: 'Qualcomm SM8550-AB Snapdragon 8 Gen 2 (4 nm)', 
+            CPUdetails: 'Octa-core (1x3.2 GHz Cortex-X3 & 2x2.8 GHz Cortex-A715 & 2x2.8 GHz Cortex-A710 & 3x2.0 GHz Cortex-A510)',
             GPU: 'Adreno 740',
             ram: [12],
             storageGB: [256, 512],
@@ -2452,7 +2508,8 @@ export const assets = {
         },
 
         performance: {
-            CPU: 'Octa-core (1x2.84 GHz Cortex-A77 & 3x2.42 GHz Cortex-A77 & 4x1.80 GHz Cortex-A55) Qualcomm SM8250 Snapdragon 865 5G (7 nm+)',
+            CPU: 'Qualcomm SM8250 Snapdragon 865 5G (7 nm+)', 
+            CPUdetails: 'Octa-core (1x2.84 GHz Cortex-A77 & 3x2.42 GHz Cortex-A77 & 4x1.80 GHz Cortex-A55)',
             GPU: 'Adreno 650',
             ram: [8],
             storageGB: [128, 256],
@@ -2494,7 +2551,8 @@ export const assets = {
         },
 
         performance: {
-            CPU: 'Octa-core (1x3.0 GHz Cortex-X4 & 4x2.8 GHz Cortex-A720 & 3x2.0 GHz Cortex-A520) Qualcomm SM8635 Snapdragon 8s Gen 3 (4 nm)',
+            CPU: 'Qualcomm SM8635 Snapdragon 8s Gen 3 (4 nm)', 
+            CPUdetails: 'Octa-core (1x3.0 GHz Cortex-X4 & 4x2.8 GHz Cortex-A720 & 3x2.0 GHz Cortex-A520)',
             GPU: 'Adreno 735',
             ram: [12, 16],
             storageGB: [512, 1024],
@@ -2536,7 +2594,8 @@ export const assets = {
         },
 
         performance: {
-            CPU: 'Octa-core (1x3.2 GHz Cortex-X3 & 2x2.8 GHz Cortex-A715 & 2x2.8 GHz Cortex-A710 & 3x2.0 GHz Cortex-A510) Qualcomm SM8550-AB Snapdragon 8 Gen 2 (4 nm)',
+            CPU: 'Qualcomm SM8550-AB Snapdragon 8 Gen 2 (4 nm)', 
+            CPUdetails: 'Octa-core (1x3.2 GHz Cortex-X3 & 2x2.8 GHz Cortex-A715 & 2x2.8 GHz Cortex-A710 & 3x2.0 GHz Cortex-A510)',
             GPU: 'Adreno 740',
             ram: [8, 12],
             storageGB: [128, 256, 512],
@@ -2578,7 +2637,8 @@ export const assets = {
         },
 
         performance: {
-            CPU: 'Octa-core (1x3.19 GHz Cortex-X2 & 3x2.75 GHz Cortex-A710 & 4x1.80 GHz Cortex-A510) Qualcomm SM8475 Snapdragon 8+ Gen 1 (4 nm)',
+            CPU: 'Qualcomm SM8475 Snapdragon 8+ Gen 1 (4 nm)', 
+            CPUdetails: 'Octa-core (1x3.19 GHz Cortex-X2 & 3x2.75 GHz Cortex-A710 & 4x1.80 GHz Cortex-A510)',
             GPU: 'Adreno 730',
             ram: [8, 12],
             storageGB: [128, 256, 512],
@@ -2620,7 +2680,8 @@ export const assets = {
         },
 
         performance: {
-            CPU: 'Octa-core (1x3.3 GHz Cortex-X4 & 3x3.2 GHz Cortex-A720 & 2x3.0 GHz Cortex-A720 & 2x2.3 GHz Cortex-A520) Qualcomm SM8650-AB Snapdragon 8 Gen 3 (4 nm)',
+            CPU: 'Qualcomm SM8650-AB Snapdragon 8 Gen 3 (4 nm)', 
+            CPUdetails: 'Octa-core (1x3.3 GHz Cortex-X4 & 3x3.2 GHz Cortex-A720 & 2x3.0 GHz Cortex-A720 & 2x2.3 GHz Cortex-A520)',
             GPU: 'Adreno 750',
             ram: [16, 24],
             storageGB: [256, 512, 1024],
@@ -2662,7 +2723,8 @@ export const assets = {
         },
 
         performance: {
-            CPU: 'Octa-core (1x3.63 GHz Cortex-X925 & 3x3.3 GHz Cortex-X4 & 4x2.4 GHz Cortex-A720) Mediatek Dimensity 9400 (3 nm)',
+            CPU: 'Mediatek Dimensity 9400 (3 nm)', 
+            CPUdetails: 'Octa-core (1x3.63 GHz Cortex-X925 & 3x3.3 GHz Cortex-X4 & 4x2.4 GHz Cortex-A720)',
             GPU: 'Immortalis-G925',
             ram: [12, 16],
             storageGB: [256, 512, 1024],
@@ -2704,7 +2766,8 @@ export const assets = {
         },
 
         performance: {
-            CPU: 'Octa-core (1x2.84 GHz Cortex-A77 & 3x2.42 GHz Cortex-A77 & 4x1.80 GHz Cortex-A55) Qualcomm SM8250 Snapdragon 865 5G (7 nm+)',
+            CPU: 'Qualcomm SM8250 Snapdragon 865 5G (7 nm+)', 
+            CPUdetails: 'Octa-core (1x2.84 GHz Cortex-A77 & 3x2.42 GHz Cortex-A77 & 4x1.80 GHz Cortex-A55)',
             GPU: 'Adreno 650',
             ram: [8],
             storageGB: [128, 256],
@@ -2746,7 +2809,8 @@ export const assets = {
         },
 
         performance: {
-            CPU: 'Quad-core 1.4 GHz Cortex-A53 Qualcomm MSM8917 Snapdragon 425 (28 nm)',
+            CPU: 'Qualcomm MSM8917 Snapdragon 425 (28 nm)', 
+            CPUdetails: 'Quad-core (1.4 GHz Cortex-A53)',
             GPU: 'Adreno 308',
             ram: [4],
             storageGB: [32],
@@ -2788,7 +2852,8 @@ export const assets = {
         },
 
         performance: {
-            CPU: 'Octa-core (4x2.5 GHz Cortex-A78 & 4x2.0 GHz Cortex-A55) Mediatek Dimensity 7300 (4 nm)',
+            CPU: 'Mediatek Dimensity 7300 (4 nm)', 
+            CPUdetails: 'Octa-core (4x2.5 GHz Cortex-A78 & 4x2.0 GHz Cortex-A55)',
             GPU: 'Mali-G615 MP2',
             ram: [16],
             storageGB: [512],
@@ -2829,7 +2894,8 @@ export const assets = {
         },
 
         performance: {
-            CPU: 'Octa-core (2x2.6 GHz Cortex-A78 & 6x2.0 GHz Cortex-A55) Mediatek Dimensity 7050 (6 nm',
+            CPU: 'Mediatek Dimensity 7050 (6 nm', 
+            CPUdetails: 'Octa-core (2x2.6 GHz Cortex-A78 & 6x2.0 GHz Cortex-A55)',
             GPU: 'Mali-G68 MC4',
             ram: [16],
             storageGB: [512],
@@ -2870,7 +2936,8 @@ export const assets = {
         },
 
         performance: {
-            CPU: '7-core (2x4.32 GHz Oryon V2 Phoenix L + 5x3.53 GHz Oryon V2 Phoenix M) Qualcomm SM8750-3-AB Snapdragon 8 Elite (3 nm)',
+            CPU: 'Qualcomm SM8750-3-AB Snapdragon 8 Elite (3 nm)', 
+            CPUdetails: '7-core (2x4.32 GHz Oryon V2 Phoenix L + 5x3.53 GHz Oryon V2 Phoenix M)',
             GPU: 'Adreno 830',
             ram: [12, 16],
             storageGB: [256, 512, 1024],

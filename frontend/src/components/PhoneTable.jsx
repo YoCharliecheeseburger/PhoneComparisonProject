@@ -2,6 +2,20 @@ import React from 'react'
 
 const PhoneTable = ({ phone }) => {
 
+    const handleCompare = () => {
+      const stored = JSON.parse(localStorage.getItem("comparePhones")) || [];
+
+    if (!stored.includes(phone.id)) {
+        stored.push(phone.id);
+    }
+    //why would u want to compare the same phone silly
+
+    localStorage.setItem("comparePhones", JSON.stringify(stored));
+
+    window.dispatchEvent(new Event("compareUpdated"));
+    };
+
+
   const formatArray = (key, arr) => {
     switch (key) {
       case "camera":
@@ -9,7 +23,7 @@ const PhoneTable = ({ phone }) => {
 
       case "ram":
         return arr.map(number => (number >= 512 ? `${number} MB` : `${number} GB`)).join(" / ")
-
+        //only the nokia has mb and no phone is capable of 512gb of ram so this should be fine :sob:
       case "storage":
         return arr.map(number => `${number} GB`).join(" / ")
 
@@ -30,8 +44,10 @@ const PhoneTable = ({ phone }) => {
 
       <div className="rightDesc">
         <div className='phoneTopSection'>
-          <h1>{phone.name}</h1><div className="compareButtonPlacement"><button className='compareButton'>Compare</button></div>
-          
+          <h1>{phone.name}</h1>
+          <div className="compareButtonPlacement">
+            <button className='compareButton' onClick={handleCompare}><p>Compare</p></button>
+          </div>
         </div>
         <div className='phoneSpecs'>
           <p>OS: {phone.OS}</p>
@@ -39,32 +55,24 @@ const PhoneTable = ({ phone }) => {
             <h3>Body</h3>
             <p>Dimensions: {phone.body.dimensions}</p>
             <p>Weight: {phone.body.weight}</p>
-          </div>
 
-          <div className='specBlock'>
             <h3>Display</h3>
             <p>Screen Size: {phone.display.screenSizeIN}"</p>
             <p>Panel: {phone.display.panel}</p>
             <p>Resolution: {phone.display.resolution}</p>
             <p>Refresh Rate: {phone.display.refreshRate} Hz</p>
-          </div>
 
-          <div className='specBlock'>
             <h3>Performance</h3>
             <p>CPU: {phone.performance.CPU}</p>
             <p>GPU: {phone.performance.GPU}</p>
             <p>RAM: {formatArray("ram", phone.performance.ram)}</p>
             <p>Storage: {formatArray("storage", phone.performance.storageGB)}</p>
-          </div>
           
         
-          <div className='specBlock'>
             <h3>Battery</h3>
             <p>Capacity: {phone.battery.capacityMah} mAh</p>
             <p>Charging Speed: {phone.battery.chargingSpeedW} W</p>
-          </div>
 
-          <div className='specBlock'>
             <h3>Camera</h3>
             <p>
               Selfie: {Array.isArray(phone.camera.selfieCamMP) 
@@ -72,9 +80,7 @@ const PhoneTable = ({ phone }) => {
                 : (phone.camera.selfieCamMP ? `${phone.camera.selfieCamMP} MP` : "None")}
             </p>
             <p>Rear: {formatArray("camera", phone.camera.rearCamerasMP)}</p>
-          </div>
 
-          <div className='specBlock'>
             <h3>Connectivity</h3>
             <p>Bluetooth Version: {phone.connectivity.bluetoothVersion}</p>
             <p>Port Type: {phone.connectivity.portType}</p>
