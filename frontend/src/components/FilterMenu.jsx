@@ -2,7 +2,10 @@ import React from 'react'
 
 function FilterMenu() {
   return (
-    <div className='filterMenuContent'>testtesttest</div>
+    <div className='filterMenu'>
+      <div className='filterMenuContent'>testtesttest</div>
+    </div>
+    
   )
 }
 

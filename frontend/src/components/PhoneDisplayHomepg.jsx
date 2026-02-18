@@ -1,8 +1,27 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-
+import screensize from '../assets/screensize.png'
+import batterycap from '../assets/batterycap.png'
+import phonecamera from '../assets/phonecamera.png'
+import memory from '../assets/memory.png'
 
 const PhoneDisplayHomepg = ({phone}) => {
+
+    const formatArray = (key, arr) => {
+        switch (key) {
+        case "camera":
+            return arr.map(number => `${number} MP`).join(" + ")
+
+        case "ram":
+            return arr.map(number => (number >= 512 ? `${number} MB` : `${number} GB`)).join(" / ")
+            //only the nokia has mb and no phone is capable of 512gb of ram so this should be fine :sob:
+        case "storage":
+            return arr.map(number => `${number} GB`).join(" / ")
+
+        default:
+            return arr.join(" / ")
+        }
+    }
 
     const handleCompare = () => {
         const stored = JSON.parse(localStorage.getItem("comparePhones")) || [];
@@ -25,14 +44,24 @@ const PhoneDisplayHomepg = ({phone}) => {
 
             <div className='phoneContentHome'>
                 <div className='phoneImgHome'>
-                    <img src={phone.image} alt='phoneFrontPicture'/>
+                    <img src={phone.image} alt={phone.name}/>
                 </div>
 
                 <div className='phoneTextHome'>
-                    <p>{phone.display.screenSizeIN}"</p>
-                    <p>{phone.battery.capacityMah} mAh</p>
-                    <p>{phone.display.refreshRate} Hz</p>
-                    <p>{phone.performance.GPU}</p>
+                    <div className='iconsTextPos'>
+                        <div className='getpegged'>
+                            <img src={screensize} alt="Screen Size" /><p>{phone.display.screenSizeIN}"</p>
+                        </div>
+                        <div className='getpegged'>
+                            <img src={batterycap} alt="Battery Capacity" /><p>{phone.battery.capacityMah} mAh</p>
+                        </div>
+                        <div className='getpegged'>
+                            <img src={phonecamera} alt="Selfie camera" /><p>{Array.isArray(phone.camera.selfieCamMP) ? formatArray("camera", phone.camera.selfieCamMP) : (phone.camera.selfieCamMP ? `${phone.camera.selfieCamMP} MP` : "None")}</p>
+                        </div>
+                        <div className='getpegged'>
+                            <img src={memory} alt="RAM" /><p>{formatArray("ram", phone.performance.ram)}</p>
+                        </div>
+                    </div>
                     <div className='compareButtonPlacement'>
                         <button className='compareButton' onClick={handleCompare}><p>Compare</p></button>
                     </div>

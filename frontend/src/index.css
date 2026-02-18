@@ -90,13 +90,6 @@ body {
     padding: 30px;
 }
 
-
-
-
-
-
-
-
 .phoneList {
     display: flex;
     position: relative;
@@ -137,7 +130,7 @@ body {
     width: 100%;
     text-decoration: none;
     font-weight: bold;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     color: black;
 }
 
@@ -147,9 +140,8 @@ body {
 
 .phoneContentHome {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 15px;
     width: 100%;
 }
 
@@ -158,6 +150,7 @@ body {
     flex-direction: column;
     width: 250px;
     height: 100%;
+    margin-left: 20px;
 }
 
 .phoneStylingHome a:hover {
@@ -165,9 +158,30 @@ body {
 }
 
 .phoneTextHome p {
-    text-align: right;
-    margin: 2px;
-    font-size: 1.1rem;
+    margin: 0;
+    margin-left: 14px;
+    font-size: 1.25rem;
+}
+
+.iconsTextPos {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.iconsTextPos img {
+    width: 32px;
+}
+
+.getpegged {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.phoneImgHome {
+    height: 100%;
 }
 
 .phoneImgHome img {
@@ -194,6 +208,7 @@ body {
 }
 
 .compareButton p {
+    margin: 0;
     font-size: 1.05rem;
     font-weight:  bold;
 }
@@ -225,7 +240,7 @@ body {
 }
 
 .phoneTextHome .compareButtonPlacement {
-    margin-top: 40px;
+    margin-top: 10px;
 }
 
 

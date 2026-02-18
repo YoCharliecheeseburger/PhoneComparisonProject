@@ -8,18 +8,15 @@ function Home() {
   return (
     <div className='homeInsides'>
       <div className='filterPos'>
-        <div className='filterMenu'>
-          <FilterMenu />
-        </div>
+        <FilterMenu />
       </div>
       <ComparePopup />
-        <div className='phoneList'>
-          <div className='phoneListLayoutHome'>
-            {Object.entries(assets).map(([key, value]) =><PhoneDisplayHomepg phone={value} key={key}/>)}
-          </div>
+      <div className='phoneList'>
+        <div className='phoneListLayoutHome'>
+          {Object.entries(assets).map(([key, value]) =><PhoneDisplayHomepg phone={value} key={key}/>)}
         </div>
+      </div>
     </div>
-    
   )
 }
 

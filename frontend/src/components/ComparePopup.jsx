@@ -1,60 +1,68 @@
 import React, { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-import { assets } from '../assets/assets'
+import { assets } from '../assets/assets.js'
 
 function ComparePopup() {
-  const [phones, setPhones] = useState([]);
-  const navigate = useNavigate();
+  const [phones, setPhones] = useState([])
+  const navigate = useNavigate()
 
   useEffect(() => {
     const loadPhones = () => {
-      const stored = JSON.parse(localStorage.getItem("comparePhones")) || [];
-      setPhones(stored);
-    };
+      const stored = JSON.parse(localStorage.getItem('comparePhones')) || []
 
-    loadPhones();
-    window.addEventListener("compareUpdated", loadPhones);
+      const validPhones = stored.filter(id => assets[id])
+
+      setPhones(validPhones)
+    }
+
+    loadPhones()
+    window.addEventListener('compareUpdated', loadPhones)
 
     return () => {
-      window.removeEventListener("compareUpdated", loadPhones);
-    };
-  }, []);
+      window.removeEventListener('compareUpdated', loadPhones)
+    }
+  }, [])
 
   const removePhone = (id) => {
-    const updated = phones.filter(p => p !== id);
-    localStorage.setItem("comparePhones", JSON.stringify(updated));
-    setPhones(updated);
-    window.dispatchEvent(new Event("compareUpdated"));
-  };
+    const updated = phones.filter(p => p !== id)
+    localStorage.setItem('comparePhones', JSON.stringify(updated))
+    setPhones(updated)
+    window.dispatchEvent(new Event('compareUpdated'))
+  }
 
   const clearAll = () => {
-    localStorage.removeItem("comparePhones");
-    setPhones([]);
-    window.dispatchEvent(new Event("compareUpdated"));
-  };
+    localStorage.removeItem('comparePhones')
+    setPhones([])
+    window.dispatchEvent(new Event('compareUpdated'))
+  }
 
   const goToCompare = () => {
     if (phones.length < 2) {
-      alert("Select at least 2 phones to compare");
-      return;
+      alert('Select at least 2 phones to compare')
+      return
     }
-    navigate("/comparisons");
-  };
+    navigate('/comparisons')
+  }
 
-  if (phones.length === 0) return null;
+  if (phones.length === 0) return null
 
   return (
     <div className='ComparePopupStyle'>
       <div className='comparePhones'>
-        {phones.map(id => (
-          <div className='comparePhoneCard' key={id}>
-            <div className="imageWrapper">
-              <img src={assets[id].image} alt={assets[id].name} />
-              <button onClick={() => removePhone(id)}>✕</button>
+        {phones.map(id => {
+          const phone = assets[id]
+          if (!phone) return null
+
+          return (
+            <div className='comparePhoneCard' key={id}>
+              <div className='imageWrapper'>
+                <img src={phone.image} alt={phone.name} />
+                <button onClick={() => removePhone(id)}>✕</button>
+              </div>
+              <p>{phone.name}</p>
             </div>
-            <p>{assets[id].name}</p>
-          </div>
-        ))}
+          )
+        })}
       </div>
 
       <div className='popupButtons'>
