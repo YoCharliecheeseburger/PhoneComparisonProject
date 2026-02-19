@@ -7,9 +7,7 @@ import { assets } from '../assets/assets.js'
 function Home() {
   return (
     <div className='homeInsides'>
-      <div className='filterPos'>
-        <FilterMenu />
-      </div>
+      <FilterMenu />
       <ComparePopup />
       <div className='phoneList'>
         <div className='phoneListLayoutHome'>

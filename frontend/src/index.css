@@ -429,11 +429,11 @@ body {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     box-sizing: border-box;
 }
 
-.comparisonLayout {
+.comparisonTableLayout {
     display: flex;
     justify-content: center;
     flex-wrap: nowrap;
@@ -453,27 +453,41 @@ table {
     overflow-x: auto;
 }
 
-td:nth-child(odd) {
-    background-color: rgb(250, 250, 250);
-    border: 5px solid rgb(250, 250, 250);
-}
 
-th, td {
-    min-width: 200px;
-}
-
-th {
-    background-color: #cecece;
-    border: 3px solid #cecece;
-}
-
-td {
+td:nth-of-type(even):not(:first-child) {
     background-color: #e9e9e9;
     border: 5px solid #e9e9e9;
 }
 
+th, td {
+    min-width: 180px;
+    height: 36px;
+}
 
-.comparisonLayout > button {
+th {
+    color: white;
+    background-color: #848484;
+    border: 3px solid #9f9f9f;
+}
+
+td {
+    padding: 5px;
+    background-color: rgb(250, 250, 250);
+    border: 5px solid rgb(250, 250, 250);
+}
+
+
+thead button {
+    width: 25px;
+    border: none;
+    background-color: rgb(223, 5, 5);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.comparisonTableLayout > button {
     width: 55px;
     writing-mode: vertical-lr;
     text-orientation: sideways;

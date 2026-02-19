@@ -50,16 +50,16 @@ const PhoneDisplayHomepg = ({phone}) => {
                 <div className='phoneTextHome'>
                     <div className='iconsTextPos'>
                         <div className='getpegged'>
-                            <img src={screensize} alt="Screen Size" /><p>{phone.display.screenSizeIN}"</p>
+                            <img src={screensize} alt="Screen Size" title='Screen size' /><p>{phone.display.screenSizeIN}"</p>
                         </div>
                         <div className='getpegged'>
-                            <img src={batterycap} alt="Battery Capacity" /><p>{phone.battery.capacityMah} mAh</p>
+                            <img src={batterycap} alt="Battery Capacity" title='Battery capacity'/><p>{phone.battery.capacityMah} mAh</p>
                         </div>
                         <div className='getpegged'>
-                            <img src={phonecamera} alt="Selfie camera" /><p>{Array.isArray(phone.camera.selfieCamMP) ? formatArray("camera", phone.camera.selfieCamMP) : (phone.camera.selfieCamMP ? `${phone.camera.selfieCamMP} MP` : "None")}</p>
+                            <img src={phonecamera} alt="Selfie camera" title='Selfie Camera'/><p>{Array.isArray(phone.camera.selfieCamMP) ? formatArray("camera", phone.camera.selfieCamMP) : (phone.camera.selfieCamMP ? `${phone.camera.selfieCamMP} MP` : "None")}</p>
                         </div>
                         <div className='getpegged'>
-                            <img src={memory} alt="RAM" /><p>{formatArray("ram", phone.performance.ram)}</p>
+                            <img src={memory} alt="RAM" title='RAM'/><p>{formatArray("ram", phone.performance.ram)}</p>
                         </div>
                     </div>
                     <div className='compareButtonPlacement'>

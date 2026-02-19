@@ -11,9 +11,7 @@ function Phones() {
 
   return (
     <div className="phoneInsides">
-      <div className='phoneLayoutPhones'>
-        <PhoneTable phone={phone} />
-      </div>
+      <PhoneTable phone={phone} />
       <ComparePopup />
     </div>
   )

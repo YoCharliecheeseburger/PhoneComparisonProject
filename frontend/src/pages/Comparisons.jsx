@@ -39,12 +39,13 @@ function Comparisons() {
 
   return (
     <div className="comparisonInsides">
-      <div className='comparisonLayout'>
+      <div className='comparisonTableLayout'>
         <button onClick={() => {localStorage.removeItem("comparePhones"); setPhones([]); }}>Clear All</button>
         <div className='tableScroll'>
           <table className="comparisonTable">
             <thead>
               <tr>
+                <th></th>
                 <th></th>
                 {phoneData.map(phone => (
                   <th key={phone.id}>
@@ -58,53 +59,62 @@ function Comparisons() {
 
             <tbody>
               <tr>
-                <th scope="row">OS</th>
+                <th scope='row'>PLATFORM</th>
+                <th>OS</th>
                 {phoneData.map(phone => <td key={phone.id}>{phone.OS}</td>)}
               </tr>
 
               <tr>
-                <th scope="row">Dimensions</th>
+                <th rowSpan='2' scope='row'>BODY</th>
+                <th>Dimensions</th>
                 {phoneData.map(phone => <td key={phone.id}>{phone.body.dimensions}</td>)}
               </tr>
 
               <tr>
-                <th scope="row">Weight</th>
+                <th>Weight</th>
                 {phoneData.map(phone => <td key={phone.id}>{phone.body.weight}</td>)}
               </tr>
                 
               <tr>
-                <th scope="row">Screen Size</th>
+                <th rowSpan='4' scope='row'>DISPLAY</th>
+                <th>Screen Size</th>
                 {phoneData.map(phone => <td key={phone.id}>{phone.display.screenSizeIN}"</td>)}
               </tr>
 
               <tr>
-                <th scope="row">Display Type</th>
+                <th>Display Type</th>
                 {phoneData.map(phone => <td key={phone.id}>{phone.display.panel}</td>)}
               </tr>
 
               <tr>
-                <th scope="row">Resolution</th>
-                {phoneData.map(phone => <td key={phone.id}>{phone.display.resolution} @</td>)}
+                <th>Resolution</th>
+                {phoneData.map(phone => <td key={phone.id}>{phone.display.resolution}</td>)}
               </tr>
 
               <tr>
-                <th scope="row">Refresh Rate</th>
+                <th>Refresh Rate</th>
                 {phoneData.map(phone => <td key={phone.id}>{phone.display.refreshRate} Hz</td>)}
               </tr>
 
 
               <tr>
-                <th scope="row">CPU</th>
+                <th rowSpan='5' scope='row'>PERFORMANCE</th>
+                <th>Chipset</th>
                 {phoneData.map(phone => <td key={phone.id}>{phone.performance.CPU}</td>)}
               </tr>
 
               <tr>
-                <th scope="row">GPU</th>
+                <th>CPU</th>
+                {phoneData.map(phone => <td key={phone.id}>{phone.performance.CPUdetails}</td>)}
+              </tr>
+
+              <tr>
+                <th>GPU</th>
                 {phoneData.map(phone => <td key={phone.id}>{phone.performance.GPU}</td>)}
               </tr>
 
               <tr>
-                <th scope="row">RAM</th>
+                <th>RAM</th>
                 {phoneData.map(phone => (
                   <td key={phone.id}>
                     {formatArray("ram", phone.performance.ram)}
@@ -113,7 +123,7 @@ function Comparisons() {
               </tr>
 
               <tr>
-                <th scope="row">Storage</th>
+                <th>Storage</th>
                 {phoneData.map(phone => (
                   <td key={phone.id}>
                     {formatArray("storage", phone.performance.storageGB)}
@@ -122,43 +132,47 @@ function Comparisons() {
               </tr>
 
               <tr>
-                <th scope="row">Battery Capacity</th>
+                <th rowSpan='2' scope='row'>BATTERY</th>
+                <th>Battery Capacity</th>
                 {phoneData.map(phone => <td key={phone.id}>{phone.battery.capacityMah} mAh</td>)}
               </tr>
 
               <tr>
-                <th scope="row">Charging Speed</th>
+                <th>Charging Speed</th>
                 {phoneData.map(phone => <td key={phone.id}>{phone.battery.chargingSpeedW} W</td>)}
               </tr>
 
               <tr>
-                <th scope="row">Rear Camera</th>
+                <th rowSpan='2' scope='row'>CAMERA</th>
+                <th>Rear Camera</th>
                 {phoneData.map(phone => <td key={phone.id}>{formatArray("camera", phone.camera.rearCamerasMP)}</td>)}
               </tr>
 
               <tr>
-                <th scope="row">Selfie Camera</th>
+                <th>Selfie Camera</th>
                 {phoneData.map(phone => <td key={phone.id}>{Array.isArray(phone.camera.selfieCamMP) ? formatArray("camera", phone.camera.selfieCamMP) : (phone.camera.selfieCamMP ? `${phone.camera.selfieCamMP} MP` : "None")}</td>)}
               </tr>
 
               <tr>
-                <th scope="row">Bluetooth</th>
+                <th rowSpan='3' scope='row'>CONNECTIVITY</th>
+                <th>Bluetooth</th>
                 {phoneData.map(phone => <td key={phone.id}>{phone.connectivity.bluetoothVersion}</td>)}
               </tr>
 
               <tr>
-                <th scope="row">Port type</th>
+                <th>Port type</th>
                 {phoneData.map(phone => <td key={phone.id}>{phone.connectivity.portType}</td>)}
               </tr>
 
               <tr>
-                <th scope="row">HeadphoneJack</th>
+                <th>Headphone Jack</th>
                 {phoneData.map(phone => <td key={phone.id}>{phone.connectivity.headphoneJack ? "Yes" : "No"}</td>)}
               </tr>
 
             </tbody>
           </table>
         </div>
+        
       </div>
     </div>
   );
