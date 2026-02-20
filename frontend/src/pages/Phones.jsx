@@ -1,4 +1,3 @@
-import React from 'react'
 import { useParams } from 'react-router-dom'
 import PhoneTable from '../components/PhoneTable.jsx'
 import ComparePopup from '../components/ComparePopup';

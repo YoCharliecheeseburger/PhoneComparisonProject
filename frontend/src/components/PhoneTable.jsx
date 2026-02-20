@@ -1,37 +1,7 @@
-import React from 'react'
+import FormatArray from '../logic/FormatArray.jsx';
+import { addToCompare } from '../logic/CompareLogic.jsx';
 
 const PhoneTable = ({ phone }) => {
-
-    const handleCompare = () => {
-      const stored = JSON.parse(localStorage.getItem("comparePhones")) || [];
-
-    if (!stored.includes(phone.id)) {
-        stored.push(phone.id);
-    }
-    //why would u want to compare the same phone silly
-
-    localStorage.setItem("comparePhones", JSON.stringify(stored));
-
-    window.dispatchEvent(new Event("compareUpdated"));
-    };
-
-
-  const formatArray = (key, arr) => {
-    switch (key) {
-      case "camera":
-        return arr.map(number => `${number} MP`).join(" + ")
-
-      case "ram":
-        return arr.map(number => (number >= 512 ? `${number} MB` : `${number} GB`)).join(" / ")
-        //only the nokia has mb and no phone is capable of 512gb of ram so this should be fine :sob:
-      case "storage":
-        return arr.map(number => `${number} GB`).join(" / ")
-
-      default:
-        return arr.join(" / ")
-    }
-  }
-
 
   return (
     <div className='phoneLayoutPhones'>
@@ -46,7 +16,7 @@ const PhoneTable = ({ phone }) => {
           <div className='phoneTopSection'>
             <h1>{phone.name}</h1>
             <div className="compareButtonPlacement">
-              <button className='compareButton' onClick={handleCompare}><p>Compare</p></button>
+              <button className='compareButton' onClick={() => addToCompare(phone.id)}><p>Compare</p></button>
             </div>
           </div>
           <div className='phoneSpecs'>
@@ -63,23 +33,22 @@ const PhoneTable = ({ phone }) => {
               <p>Refresh Rate: {phone.display.refreshRate} Hz</p>
 
               <h3>Performance</h3>
-              <p>CPU: {phone.performance.CPU}</p>
+              <p>Chipset: {phone.performance.CPU}</p>
+              <p>CPU: {phone.performance.CPUdetails}</p>
               <p>GPU: {phone.performance.GPU}</p>
-              <p>RAM: {formatArray("ram", phone.performance.ram)}</p>
-              <p>Storage: {formatArray("storage", phone.performance.storageGB)}</p>
+              <p>RAM: {FormatArray("ram", phone.performance.ram)}</p>
+              <p>Storage: {FormatArray("storage", phone.performance.storageGB)}</p>
             
-          
               <h3>Battery</h3>
               <p>Capacity: {phone.battery.capacityMah} mAh</p>
               <p>Charging Speed: {phone.battery.chargingSpeedW} W</p>
 
               <h3>Camera</h3>
-              <p>
-                Selfie: {Array.isArray(phone.camera.selfieCamMP) 
-                  ? formatArray("camera", phone.camera.selfieCamMP) 
-                  : (phone.camera.selfieCamMP ? `${phone.camera.selfieCamMP} MP` : "None")}
+              <p>Selfie: {phone.camera.selfieCamMP
+                ? FormatArray("camera", [].concat(phone.camera.selfieCamMP))
+                : "None"}
               </p>
-              <p>Rear: {formatArray("camera", phone.camera.rearCamerasMP)}</p>
+              <p>Rear: {FormatArray("camera", phone.camera.rearCamerasMP)}</p>
 
               <h3>Connectivity</h3>
               <p>Bluetooth Version: {phone.connectivity.bluetoothVersion}</p>

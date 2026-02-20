@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { assets } from '../assets/assets.js'
+import { removeFromCompare, clearCompare, getComparePhones } from '../logic/CompareLogic.jsx'
 
 function ComparePopup() {
   const [phones, setPhones] = useState([])
@@ -13,10 +14,7 @@ function ComparePopup() {
 
   useEffect(() => {
     const loadPhones = () => {
-      const stored = JSON.parse(localStorage.getItem('comparePhones')) || []
-
-      const validPhones = stored.filter(id => assets[id])
-      
+      const validPhones = getComparePhones().filter(id => assets[id])
       setPhones(validPhones)
     }
 
@@ -28,17 +26,15 @@ function ComparePopup() {
     }
   }, [])
 
-  const removePhone = (id) => {
-    const updated = phones.filter(p => p !== id)
-    localStorage.setItem('comparePhones', JSON.stringify(updated))
-    setPhones(updated)
-    window.dispatchEvent(new Event('compareUpdated'))
+  const handleRemove = (id) => {
+    removeFromCompare(id)
+    setPhones(prev => prev.filter(p => p !== id))
   }
 
-  const clearAll = () => {
-    localStorage.removeItem('comparePhones')
+  const handleClear = () => {
+    clearCompare()
     setPhones([])
-    window.dispatchEvent(new Event('compareUpdated'))
+    setIsCollapsed(false)
   }
 
   const goToCompare = () => {
@@ -49,7 +45,7 @@ function ComparePopup() {
     navigate('/comparisons')
   }
 
-  if (phones.length === 0 && !isCollapsed) return null
+  if (phones.length === 0) return null
 
   return (
     <div className={`ComparePopupStyle ${isCollapsed ? 'collapsed' : ''}`}>
@@ -58,31 +54,27 @@ function ComparePopup() {
         {isCollapsed ? '>' : '<'}
       </div>
 
-      {!isCollapsed && (
-        <>
-          <div className='comparePhones'>
-            {phones.map(id => {
-              const phone = assets[id]
-              if (!phone) return null
+      <div className='comparePhones'>
+        {phones.map(id => {
+          const phone = assets[id]
+          if (!phone) return null
 
-              return (
-                <div className='comparePhoneCard' key={id}>
-                  <div className='imageWrapper'>
-                    <img src={phone.image} alt={phone.name} />
-                    <button onClick={() => removePhone(id)}>✕</button>
-                  </div>
-                  <p>{phone.name}</p>
-                </div>
-              )
-            })}
-          </div>
+          return (
+            <div className='popUpContent' key={id}>
+              <div className='popupImage'>
+                <img src={phone.image} alt={phone.name} />
+                <button onClick={() => handleRemove(id)}>✕</button>
+              </div>
+              <p>{phone.name}</p>
+            </div>
+          )
+        })}
+      </div>
 
-          <div className='popupButtons'>
-            <button id='popupClearButton' onClick={clearAll}>Clear</button>
-            <button id='popupCompareButton' onClick={goToCompare}>Compare</button>
-          </div>
-        </>
-      )}
+      <div className='popupButtons'>
+        <button id='popupClearButton' onClick={handleClear}>Clear</button>
+        <button id='popupCompareButton' onClick={goToCompare}>Compare</button>
+      </div>
     </div>
   )
 }

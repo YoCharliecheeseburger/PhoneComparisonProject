@@ -1873,7 +1873,7 @@ export const assets = {
         },
 
         connectivity: {
-            bluetoothVersion: '5.3,',
+            bluetoothVersion: '5.3',
             portType: 'USB Type-C 3.2',
             headphoneJack: false,
         }
@@ -2491,12 +2491,12 @@ export const assets = {
         OS: 'Android 12',
 
         battery: {
-            capacityMah: '158 x 68 x 8 mm',
+            capacityMah: '400',
             chargingSpeedW: '163 g',
         },
 
         body: {
-            dimensions: '4000',
+            dimensions: '158 x 68 x 8 mm',
             weight: '21',
         },
 

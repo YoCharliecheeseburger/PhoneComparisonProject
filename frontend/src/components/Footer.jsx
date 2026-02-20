@@ -1,11 +1,9 @@
-import React from 'react'
-
 function Footer() {
   return (
     <div className='footer'>
       <div className='footerContent'>
-        <h1>ghjukigfdsfghjk</h1>
-        <p>fdcdfdgjhjlkkjhg</p>
+        <h1>Made by yours truly</h1>
+        <p>me</p>
       </div>
     </div>
   )

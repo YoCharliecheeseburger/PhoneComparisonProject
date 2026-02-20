@@ -1,7 +1,6 @@
 import './index.css'
 import Navbar from './components/Navbar.jsx'
 import Footer from './components/Footer.jsx'
-import React from 'react'
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Home from './pages/Home'
 import Comparisons from './pages/Comparisons'

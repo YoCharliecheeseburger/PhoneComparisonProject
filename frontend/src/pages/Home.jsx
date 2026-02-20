@@ -1,21 +1,28 @@
-import React from 'react'
-import FilterMenu from '../components/FilterMenu.jsx'
+import React, { useState, useCallback } from 'react';
+import FilterMenu from '../components/FilterMenu.jsx';
 import ComparePopup from '../components/ComparePopup';
-import PhoneDisplayHomepg from '../components/PhoneDisplayHomepg.jsx'
-import { assets } from '../assets/assets.js'
+import PhoneDisplayHomepg from '../components/PhoneDisplayHomepg.jsx';
+import { assets } from '../assets/assets.js';
 
 function Home() {
+  const [filteredIds, setFilteredIds] = useState(Object.keys(assets));
+  const handleFilter = useCallback((ids) => setFilteredIds(ids), []);
+
   return (
     <div className='homeInsides'>
-      <FilterMenu />
+      <FilterMenu onFilter={handleFilter} count={filteredIds.length} />
       <ComparePopup />
-      <div className='phoneList'>
-        <div className='phoneListLayoutHome'>
-          {Object.entries(assets).map(([key, value]) =><PhoneDisplayHomepg phone={value} key={key}/>)}
+      {filteredIds.length === 0 ? (
+        <p className='noPhones'>No phones selected.</p>
+      ) : (
+        <div className='phoneList'>
+          <div className='phoneListLayoutHome'>
+            {filteredIds.map(id => <PhoneDisplayHomepg phone={assets[id]} key={id} />)}
+          </div>
         </div>
-      </div>
+      )}
     </div>
-  )
+  );
 }
 
-export default Home
+export default Home;
