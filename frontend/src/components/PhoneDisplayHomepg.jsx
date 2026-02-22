@@ -36,7 +36,7 @@ const PhoneDisplayHomepg = ({phone}) => {
                         </div>
                     </div>
                     <div className='compareButtonPlacement'>
-                        <button className='compareButton' onClick={addToCompare}><p>Compare</p></button>
+                        <button className="compareButton" onClick={() => addToCompare(phone.id)}><p>Compare</p></button>
                     </div>
                 </div>
             </div>

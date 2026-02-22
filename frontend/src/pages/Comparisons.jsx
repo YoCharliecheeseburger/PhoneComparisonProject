@@ -18,9 +18,11 @@ function Comparisons() {
   };
 
   useEffect(() => {
-    const load = () => {
-      setPhones(getComparePhones());
-    };
+    document.title = 'Comparisons';
+  }, []);
+
+  useEffect(() => {
+    const load = () => setPhones(getComparePhones());
     load();
     window.addEventListener("compareUpdated", load);
     return () => window.removeEventListener("compareUpdated", load);

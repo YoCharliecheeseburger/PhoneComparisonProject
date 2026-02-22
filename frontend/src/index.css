@@ -70,6 +70,37 @@ body {
     font-size: 1.6rem;
 }
 
+@media (max-width: 750px) {
+  .navbar {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+  }
+
+  .left, .center, .right {
+    flex: none;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .right a {
+    border-left: none;
+    padding-left: 0;
+  }
+
+  .navbar a {
+    display: block;
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  .navbarTitle {
+    text-align: center;
+  }
+} /*yay I didnt forget it*/
+
+
+
 .homeInsides {
     display: flex;
     position: relative;
