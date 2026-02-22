@@ -763,7 +763,7 @@ export const assets = {
         id: 'xiaomi_15t_pro',
         name: 'Xiaomi 15T Pro',
 
-        OS: ['Android 15', 'HyperOS 3'],
+        OS: 'Android 15, HyperOS 3',
 
         battery: {
             capacityMah: '5500',
@@ -806,7 +806,7 @@ export const assets = {
         id: 'xiaomi_13_ultra',
         name: 'Xiaomi 13 Ultra',
 
-        OS: ['Android 14', 'HyperOS'],
+        OS: 'Android 14, HyperOS',
 
         battery: {
             capacityMah: '5000',
@@ -849,7 +849,7 @@ export const assets = {
         id: 'xiaomi_mix_fold_4',
         name: 'Xiaomi Mix Fold 4',
 
-        OS: ['Android 14', 'HyperOS'],
+        OS: 'Android 14, HyperOS',
 
         battery: {
             capacityMah: '5100',
@@ -935,7 +935,7 @@ export const assets = {
         id: 'xiaomi_13_pro',
         name: 'Xiaomi 13 Pro',
 
-        OS: ['Android 14', 'HyperOS'],
+        OS: 'Android 14, HyperOS',
 
         battery: {
             capacityMah: '4820',
@@ -978,7 +978,7 @@ export const assets = {
         id: 'xiaomi_17_pro',
         name: 'Xiaomi 17 Pro',
 
-        OS: ['Android 16', 'HyperOS 3'],
+        OS: 'Android 16, HyperOS 3',
 
         battery: {
             capacityMah: '6300',
@@ -1021,7 +1021,7 @@ export const assets = {
         id: 'xiaomi_poco_f7',
         name: 'Xiaomi POCO F7',
 
-        OS: ['Android 15', 'HyperOS 2'],
+        OS: 'Android 15, HyperOS 2',
 
         battery: {
             capacityMah: '6500',
@@ -1064,7 +1064,7 @@ export const assets = {
         id: 'xiaomi_mix_flip',
         name: 'Xiaomi Mix Flip',
 
-        OS: ['Android 16','HyperOS 3'],
+        OS: 'Android 16,HyperOS 3',
 
         battery: {
             capacityMah: '4780',
@@ -1107,7 +1107,7 @@ export const assets = {
         id: 'xiaomi_poco_x7_pro',
         name: 'Xiaomi POCO X7 Pro',
 
-        OS: ['Android 15', 'HyperOS 2'],
+        OS: 'Android 15, HyperOS 2',
 
         battery: {
             capacityMah: '6000',
@@ -1150,7 +1150,7 @@ export const assets = {
         id: 'xiaomi_redmi_k60',
         name: 'Xiaomi Redmi K60',
 
-        OS: ['Android 13', 'MIUI 14'],
+        OS: 'Android 13, MIUI 14',
 
         battery: {
             capacityMah: '5500',
@@ -1193,7 +1193,7 @@ export const assets = {
         id: 'xiaomi_15t',
         name: 'Xiaomi 15T',
 
-        OS: ['Android 16', 'HyperOS 3'],
+        OS: 'Android 16, HyperOS 3',
 
         battery: {
             capacityMah: '5500',
@@ -1237,7 +1237,7 @@ export const assets = {
         id: 'oneplus_15',
         name: 'OnePlus 15',
 
-        OS: ['Android 16', 'OxygenOS 16 (Global)', 'ColorOS 16 (China)'],
+        OS: 'Android 16, OxygenOS 16 (Global), ColorOS 16 (China)',
 
         battery: {
             capacityMah: '7300',
@@ -1280,7 +1280,7 @@ export const assets = {
         id: 'oneplus_15r',
         name: 'OnePlus 15R',
 
-        OS: ['Android 16', 'OxygenOS 16'],
+        OS: 'Android 16, OxygenOS 16',
 
         battery: {
             capacityMah: '7400',
@@ -1323,7 +1323,7 @@ export const assets = {
         id: 'oneplus_9_pro',
         name: 'OnePlus 9 Pro',
 
-        OS: ['Android 14', 'OxygenOS 14'],
+        OS: 'Android 14, OxygenOS 14',
 
         battery: {
             capacityMah: '4500',
@@ -1366,7 +1366,7 @@ export const assets = {
         id: 'oneplus_8',
         name: 'OnePlus 8',
 
-        OS: ['Android 13', 'OxygenOS 13'],
+        OS: 'Android 13, OxygenOS 13',
 
         battery: {
             capacityMah: '4300',
@@ -1409,7 +1409,7 @@ export const assets = {
         id: 'oneplus_13s',
         name: 'OnePlus 13s',
 
-        OS: ['Android 16', 'OxygenOS 16'],
+        OS: 'Android 16, OxygenOS 16',
 
         battery: {
             capacityMah: '5850',
@@ -1970,7 +1970,7 @@ export const assets = {
         id: 'nothing_phone_3',
         name: 'Nothing Phone (3)',
 
-        OS: ['Android 16', 'Nothing OS 4.0'],
+        OS: 'Android 16, Nothing OS 4.0',
 
         battery: {
             capacityMah: '5150',
@@ -2013,7 +2013,7 @@ export const assets = {
         id: 'nothing_phone_3a_pro',
         name: 'Nothing Phone (3a) Pro',
 
-        OS: ['Android 16', 'Nothing 4.0'],
+        OS: 'Android 16, Nothing 4.0',
 
         battery: {
             capacityMah: '5000',
@@ -2187,7 +2187,7 @@ export const assets = {
         id: 'honor_magic_5_ultimate',
         name: 'Honor Magic 5 Ultimate',
 
-        OS: ['Android 13', 'MagicOS 7.1'],
+        OS: 'Android 13, MagicOS 7.1',
 
         battery: {
             capacityMah: '5450',
@@ -2230,7 +2230,7 @@ export const assets = {
         id: 'honor_200_pro',
         name: 'Honor 200 Pro',
 
-        OS: ['Android 14', 'MagicOS 8'],
+        OS: 'Android 14, MagicOS 8',
 
         battery: {
             capacityMah: '5200',
@@ -2273,7 +2273,7 @@ export const assets = {
         id: 'honor_magic_7_pro',
         name: 'Honor Magic 7 Pro',
 
-        OS: ['Android 15', 'MagicOS 9'],
+        OS: 'Android 15, MagicOS 9',
 
         battery: {
             capacityMah: '5850',
@@ -2315,7 +2315,7 @@ export const assets = {
         image: honor_magic_v5,
         id: 'honor_magic_v5',
         name: 'Honor Magic V5',
-        OS: ['Android 16', 'MagicOS 10'],
+        OS: 'Android 16, MagicOS 10',
 
         battery: {
             capacityMah: '5820',
@@ -2358,7 +2358,7 @@ export const assets = {
         id: 'honor_magic_6_ultimate',
         name: 'Honor Magic 6 Ultimate',
 
-        OS: ['Android 14', 'MagicOS 8'],
+        OS: 'Android 14, MagicOS 8',
 
         battery: {
             capacityMah: '5600',
@@ -2401,7 +2401,7 @@ export const assets = {
         id: 'honor_magic_7',
         name: 'Honor Magic 7',
 
-        OS: ['Android 15', 'MagicOS 9'],
+        OS: 'Android 15, MagicOS 9',
 
         battery: {
             capacityMah: '5650',
@@ -2574,7 +2574,7 @@ export const assets = {
         id: 'motorola_moto_x40',
         name: 'Motorola Moto X40',
 
-        OS: ['Android 14', 'MYUI 6.0'],
+        OS: 'Android 14, MYUI 6.0',
 
         battery: {
             capacityMah: '4600',
@@ -2660,7 +2660,7 @@ export const assets = {
         id: 'zte_nubia_red_magic_9_pro_plus',
         name: 'ZTE nubia RedMagic 9 Pro+',
 
-        OS: ['Android 14', 'Redmagic OS 9'],
+        OS: 'Android 14, Redmagic OS 9',
 
         battery: {
             capacityMah: '5500',
@@ -2703,7 +2703,7 @@ export const assets = {
         id: 'vivo_x200_pro_mini',
         name: 'Vivo X200 Pro Mini',
 
-        OS: ['Android 15', 'OriginOS 5'],
+        OS: 'Android 15, OriginOS 5',
 
         battery: {
             capacityMah: '5700',
@@ -2916,7 +2916,7 @@ export const assets = {
         image: oppo_find_n5,
         id: 'oppo_find_n5',
         name: 'Oppo Find N5',
-        OS: ['Android 15', 'ColorOS 15'],
+        OS: 'Android 15, ColorOS 15',
 
         battery: {
             capacityMah: '5600',
